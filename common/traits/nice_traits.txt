@@ -1,0 +1,33 @@
+trait_nice_mind_thrall = {
+	cost = 0
+
+	forced_happiness = yes
+	potential_crossbreeding_chance = 0
+	initial = no
+
+	# Can always remove it
+	species_possible_remove = {
+		always = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	species_potential_add = {
+		always = no
+	}
+
+	# Prevent OP mind thralls
+	opposites = { 
+		"trait_intelligent" 
+		"trait_natural_engineers" 
+		"trait_natural_physicists" 
+		"trait_natural_sociologists" 
+		"trait_erudite" 
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_pops_upkeep_mult = -0.25
+	}
+
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"	
+}

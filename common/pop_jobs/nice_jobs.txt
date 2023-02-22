@@ -1,0 +1,93 @@
+nice_mind_thrall = {
+	category = nice_mind_thrall
+	building_icon = building_crude_huts
+	clothes_texture_index = 3
+	icon = bio_trophy
+
+	is_capped_by_modifier = no
+
+	possible = {
+		has_slavery_type = { type = slavery_nice_mind_thrall }
+	}
+
+	pop_modifier = {
+		pop_housing_usage_add = -1
+	}
+
+	possible_pre_triggers = {
+		is_enslaved = yes
+		is_sapient = yes
+	}
+
+	possible = {
+		has_slavery_type = { type = slavery_nice_mind_thrall }
+	}
+
+	resources = {
+		category = planet_nice_mind_thrall
+		produces = {
+			trigger = {
+				OR = {
+					is_organic_species = yes
+					is_lithoid = yes
+				}
+			}
+			physics_research = 1
+			society_research = 1
+			engineering_research = 1
+		}
+
+		produces = {
+			trigger = {
+				has_trait = trait_intelligent
+			}
+			physics_research = 0.5
+			society_research = 0.5
+			engineering_research = 0.5
+		}
+
+		produces = {
+			trigger = {
+				has_trait = trait_erudite
+			}
+			physics_research = 1
+			society_research = 1
+			engineering_research = 1
+		}
+
+		produces = {
+			trigger = {
+				has_trait = trait_natural_engineers
+			}
+			engineering_research = 0.5
+		}
+		produces = {
+			trigger = {
+				has_trait = trait_natural_physicists
+			}
+			physics_research = 0.5
+		}
+		produces = {
+			trigger = {
+				has_trait = trait_natural_sociologists
+			}
+			society_research = 0.5
+		}
+
+		upkeep = {
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 2
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @special_job_weight
+	}
+}
+

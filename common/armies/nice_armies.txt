@@ -1,0 +1,75 @@
+# T1
+nice_elder_brain_1_army = {
+	defensive = yes
+	damage = 2
+	morale_damage = 2
+	health = 5
+	has_morale = no
+	icon = GFX_army_type_undead
+	has_species = no
+
+	potential = {
+		always = no
+	}
+}
+
+
+# T2
+nice_elder_brain_2_army = {
+	defensive = yes
+	damage = 4
+	morale_damage = 4
+	health = 8
+	has_morale = no
+	icon = GFX_army_type_undead
+	has_species = no
+
+	potential = {
+		always = no
+	}
+}
+
+# T3
+nice_elder_brain_3_army = {
+	defensive = yes
+	damage = 8
+	morale_damage = 8
+	health = 16
+	has_morale = no
+	icon = GFX_army_type_undead
+	has_species = no
+
+	potential = {
+		always = no
+	}
+}
+
+# T4
+nice_elder_brain_4_army = {
+	defensive = yes
+	damage = 12
+	morale_damage = 12
+	health = 24
+	has_morale = no
+	icon = GFX_army_type_undead
+	has_species = no
+
+	potential = {
+		always = no
+	}
+}
+
+# T5, on par with Crystal Kraken
+nice_elder_brain_5_army = {
+	defensive = yes
+	damage = 20
+	morale_damage = 20
+	health = 50
+	has_morale = no
+	icon = GFX_army_type_undead
+	has_species = no
+
+	potential = {
+		always = no
+	}
+}

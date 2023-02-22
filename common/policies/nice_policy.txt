@@ -1,0 +1,144 @@
+nice_mind_thrall_policy = {
+	potential = {
+		has_authority = auth_hive_mind
+		has_valid_civic = civic_nice_mind_flayer
+	}
+
+	option = {
+		name = "nice_mind_thrall_policy_0"
+
+		modifier = {}
+
+		AI_weight = {
+			factor = 10
+		}
+	}
+
+	# Disabling this for now, as it no longer requires upkeep
+	# option = {
+	# 	name = "nice_mind_thrall_policy_1"
+
+	# 	modifier = {
+	# 		planet_nice_mind_thrall_produces_mult = -0.5
+	# 		planet_nice_mind_thrall_energy_upkeep_add = -1
+	# 	}
+
+	# 	AI_weight = {
+	# 		factor = 1
+	# 	}
+	# }
+
+	option = {
+		name = "nice_mind_thrall_policy_2"
+
+		potential = {
+			has_technology = tech_mind_thrall_1
+		}
+
+		modifier = {
+			planet_nice_mind_thrall_produces_mult = 0.25
+			planet_nice_mind_thrall_energy_upkeep_add = 2
+		}
+
+		AI_weight = {
+			factor = 5
+		}
+	}
+	option = {
+		name = "nice_mind_thrall_policy_3"
+
+		potential = {
+			has_technology = tech_mind_thrall_2
+		}
+
+		modifier = {
+			planet_nice_mind_thrall_produces_mult = 0.5
+			planet_nice_mind_thrall_energy_upkeep_add = 4
+			planet_nice_mind_thrall_volatile_motes_upkeep_add = 0.02
+			planet_nice_mind_thrall_exotic_gases_upkeep_add = 0.02
+			planet_nice_mind_thrall_rare_crystals_upkeep_add = 0.02
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "nice_mind_thrall_policy_4"
+		
+		potential = {
+			has_technology = tech_mind_thrall_3
+		}
+
+		modifier = {
+			planet_nice_mind_thrall_produces_mult = 1
+			planet_nice_mind_thrall_energy_upkeep_add = 8
+			planet_nice_mind_thrall_volatile_motes_upkeep_add = 0.02
+			planet_nice_mind_thrall_exotic_gases_upkeep_add = 0.02
+			planet_nice_mind_thrall_rare_crystals_upkeep_add = 0.02
+			planet_nice_mind_thrall_sr_dark_matter_upkeep_add = 0.02
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+}
+
+nice_mind_thrall_focus_policy = {
+	potential = {
+		has_authority = auth_hive_mind
+		has_valid_civic = civic_nice_mind_flayer
+	}
+
+	option = {
+		name = "nice_mind_thrall_focus_policy_0"
+
+		modifier = {}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "nice_mind_thrall_focus_policy_soc"
+
+		modifier = {
+			planet_nice_mind_thrall_society_research_produces_mult = 0.5
+			planet_nice_mind_thrall_engineering_research_produces_mult = -0.25
+			planet_nice_mind_thrall_physics_research_produces_mult = -0.25
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "nice_mind_thrall_focus_policy_eng"
+
+		modifier = {
+			planet_nice_mind_thrall_society_research_produces_mult = -0.25
+			planet_nice_mind_thrall_engineering_research_produces_mult = 0.5
+			planet_nice_mind_thrall_physics_research_produces_mult = -0.25
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "nice_mind_thrall_focus_policy_phy"
+
+		modifier = {
+			planet_nice_mind_thrall_society_research_produces_mult = -0.25
+			planet_nice_mind_thrall_engineering_research_produces_mult = -0.25
+			planet_nice_mind_thrall_physics_research_produces_mult = 0.5
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+}
