@@ -1,0 +1,49 @@
+namespace = mind_flayer
+
+### Add elder brain to starting planet
+country_event = {
+	id = mind_flayer.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_valid_civic = civic_nice_mind_flayer
+	}
+
+	immediate = {
+		capital_scope = {
+			# Add brain & organic pool to starting world 
+			add_deposit = d_elder_brain_1
+			add_deposit = d_elder_brain_upkeep
+
+			# Army
+			create_army = {
+				name = "NAME_nice_elder_brain_1_army"
+				type = "nice_elder_brain_1_army"
+			}
+		}
+		give_technology = { tech = tech_t1_elder_brain }
+		give_technology = { tech = tech_t2_elder_brain }
+	}
+}
+
+# Galaxy Brain complete
+country_event = {
+	id = mind_flayer.2
+	title = mind_flayer.2.name
+	desc = mind_flayer.2.desc
+
+	picture = GFX_evt_vortex
+	show_sound = event_space_amoeba
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = mind_flayer.2.option_1
+		add_modifier = {
+			modifier = mod_galaxy_brain_empire
+			days = -1
+		}
+	}
+}

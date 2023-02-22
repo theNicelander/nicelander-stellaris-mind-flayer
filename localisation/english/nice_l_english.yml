@@ -1,0 +1,187 @@
+﻿l_english:
+  # civics
+ civic_nice_mind_flayer:0 "Mind Flayers"
+ civic_nice_mind_flayer_desc:0 "These entities seek to expand their dominion over all other lifeforms. They consume their victims' very personality by devouring their brains while still alive. \n\nAt the heart of the Mind Flayer community lies the §YElder Brain§!. It forms the physical and spiritual center of the hive and serves as a living library of it's history, technology, and knowledge. \n\nMind Flayers sacrifice their brain and life to merge with the §YElder Brain§!, strengthening its powers and intellect."
+ civic_tooltip_nice_mind_thrall_effects:0 "Start the game with §Y8§! organic £pop£ Pops as £job_bio_trophy£ §Y$slavery_nice_mind_thrall$§!, a special slavery type that produces £physics£ £society£ £engineering£ §YResearch Points§!. \n\nCan build §YElder Brains§! on planets, an upgradeble deposit providing £stability£ §YStability§!, £society£ £engineering£ §YResearch Points§!, £unity£ §YUnity§! and a special §YDefence Army§!. \n\nThe §YElder Brain§! requires large amounts of £food£ §YFood§! & £energy£ §YEnergy§! to build, upgrade and maintain, as well as sacrifical £pops£ §YPops§! for the glory of the §YElder Brain§!\n "
+
+# Secondary species
+ civic_nice_mind_flayer_secondary_species:0 "Mind Thrall"
+ trait_nice_mind_thrall:0 "Mind Thrall"
+ trait_nice_mind_thrall_desc:0 "These Mind Thrall were inferior in every way to the Mind Flayers. They never stood a chance"
+
+ # Living Standards
+ living_standard_nice_mind_thrall:0 "Mind Thrall"
+ living_standard_nice_mind_thrall_tooltip:1 "This organism's brain is being used for the glory of the hive.\n\n$ORGANIC_TROPHY_POP_EFFECTS$"
+ living_standard_nice_mind_thrall_tooltip_delayed:0 "§LWho's a good Mind Thrall? You are! Yes you are!§!"
+
+ # Citizenship
+ citizenship_nice_mind_thrall:0 "Mind Thrall"
+ citizenship_nice_mind_thrall_tooltip:0 "All Pops of this species will be §YEnslaved§! to aid the Hive Intelligence."
+ citizenship_nice_mind_thrall_tooltip_delayed:0 "§LFreedom is an illusion. For some this truth is more tangible than it is for others.§!"
+ requires_citizenship_nice_mind_thrall:0 "$TRIGGER_FAIL$Species must have §Y$citizenship_nice_mind_thrall$§! citizenship rights."
+
+  # Slavery
+ slavery_nice_mind_thrall:0 "Mind Thralls"
+ slavery_nice_mind_thrall_tooltip:2 "Their brains are hooked into our Neural Network to aid our £society£ £engineering£ £physics£ §Yresearch§!"
+ slavery_nice_mind_thrall_tooltip_delayed:0 "§LLivestock is Pops!§!"
+
+ # Jobs
+ job_nice_mind_thrall:0 "Mind Thrall"
+ job_nice_mind_thrall_plural:0 "$job_nice_mind_thrall$s"
+ job_nice_mind_thrall_desc:0 "This pop's brain is working for our collective."
+ job_nice_mind_thrall_effect_desc:0 "The excess brain power of these organisms is used to aid our £society£ £engineering£ £physics£ §YResearch§!"
+ pop_category_nice_mind_thrall:0 "Mind Thrall Category"
+ pop_cat_nice_mind_thrall:0 "Mind Thralls"
+ pop_cat_nice_mind_thrall_plural:0 "Mind Thralls"
+ pop_cat_nice_mind_thrall_desc:0 "Mind Thralls"
+ planet_nice_mind_thrall:0 "Mind Thrall Jobs"
+
+ # Buildings
+ building_nice_mind_thrall:0 "Mind Thrall Hut"
+ mod_job_nice_mind_thrall_add:0 "Mind Thrall Jobs"
+
+ # Policies
+ policy_nice_mind_thrall_policy:0 "Mind Thrall - Output"
+ nice_mind_thrall_policy_0:0 " Balanced"
+ nice_mind_thrall_policy_1:0 "§R Reduced§!"
+ nice_mind_thrall_policy_2:0 "§G Improved§!"
+ nice_mind_thrall_policy_3:0 "§B Enhanced§!"
+ nice_mind_thrall_policy_4:0 "§P Perfected§!"
+
+ policy_nice_mind_thrall_focus_policy:0 "Mind Thrall - Focus"
+ nice_mind_thrall_focus_policy_0:0 "Balanced"
+ nice_mind_thrall_focus_policy_soc:0 "£society£ Society Focus"
+ nice_mind_thrall_focus_policy_eng:0 "£engineering£ Engineering Focus"
+ nice_mind_thrall_focus_policy_phy:0 "£physics£ Physics Focus"
+
+ # Modifiers
+ mod_planet_nice_mind_thrall_produces_mult:0 "Mind Thrall Science Output"
+ mod_planet_nice_mind_thrall_energy_upkeep_add:0 "Mind Thrall £energy£ §Yenergy§! Upkeep"
+ mod_planet_nice_mind_thrall_volatile_motes_upkeep_add:0 "Mind Thrall £volatile_motes£ §YVolatile Motes§! Upkeep"
+ mod_planet_nice_mind_thrall_exotic_gases_upkeep_add:0 "Mind Thrall £exotic_gases£ §YExotic Gases§! Upkeep"
+ mod_planet_nice_mind_thrall_rare_crystals_upkeep_add:0 "Mind Thrall £rare_crystals£ §YRare Crystals§! Upkeep"
+ mod_planet_nice_mind_thrall_sr_dark_matter_upkeep_add:0 "Mind Thrall £sr_dark_matter£ §YDark Matter§! Upkeep"
+ mod_planet_nice_mind_thrall_society_research_produces_add:0 "Mind Thrall £society£ Society Output" 
+ mod_planet_nice_mind_thrall_engineering_research_produces_add:0 "Mind Thrall £engineering£ Engineering Output" 
+ mod_planet_nice_mind_thrall_physics_research_produces_add:0 "Mind Thrall £physics£ Physics Output" 
+ mod_planet_nice_mind_thrall_society_research_produces_mult:0 "Mind Thrall £society£ Society Output" 
+ mod_planet_nice_mind_thrall_engineering_research_produces_mult:0 "Mind Thrall £engineering£ Engineering Output" 
+ mod_planet_nice_mind_thrall_physics_research_produces_mult:0 "Mind Thrall £physics£ Physics Output" 
+
+ mod_galaxy_brain_empire:0 "§Y$d_elder_brain_5$§!"
+
+ # Planet deposits
+ d_elder_brain_upkeep:0 "Organic Pool"
+ d_elder_brain_1:0 "Colony Brain"
+ d_elder_brain_2:0 "Elder Brain"
+ d_elder_brain_3:0 "Planet Brain"
+ d_elder_brain_4:0 "System Brain"
+ d_elder_brain_5:0 "Galaxy Brain"
+
+ # Planet Decisions
+ decision_elder_brain_1:0 "Grow §Y$d_elder_brain_1$§!"
+ decision_elder_brain_2:0 "Grow §Y$d_elder_brain_2$§!"
+ decision_elder_brain_3:0 "Grow §Y$d_elder_brain_3$§!"
+ decision_elder_brain_4:0 "Grow §Y$d_elder_brain_4$§!"
+ decision_elder_brain_5:0 "Grow §Y$d_elder_brain_5$§!" 
+ decision_elder_brain_5_only_one:0 "£trigger_no£ The §Y[Root.Owner.GetName]§! can only have one §Y$d_elder_brain_5$§!."
+
+ # Events
+ mind_flayer.2.name:0 "The §Y$d_elder_brain_5$§! has grown"
+ mind_flayer.2.desc:0 "This momentous occasion was felt by every §Y[Root.GetSpeciesName]§! across the galaxy. \n\nThe Elder Brain on §Y[Root.GetName]§! has grown to its ideal form, the §Y$d_elder_brain_5$§!. \n\nThese filthy xenos may not like it but this is what peak intelligence looks like."
+ mind_flayer.2.option_1:0 "Git Gud"
+
+ mind_flayer_elder_brain_upgrade.name:0 "Sacrifice pops to grow the Elder Brain on [Root.GetName]!"
+
+ mind_flayer_elder_brain_upgrade.101.confirm:0 "Sacrifice 1 pops to the glory of §Y$d_elder_brain_1$§!"
+ mind_flayer_elder_brain_upgrade.102.confirm:0 "Sacrifice 3 pops to the glory of §Y$d_elder_brain_2$§!"
+ mind_flayer_elder_brain_upgrade.103.confirm:0 "Sacrifice 5 pops to the glory of §Y$d_elder_brain_3$§!"
+ mind_flayer_elder_brain_upgrade.104.confirm:0 "Sacrifice 7 pops to the glory of §Y$d_elder_brain_4$§!"
+ mind_flayer_elder_brain_upgrade.105.confirm:0 "Sacrifice 10 pops to the glory of §Y$d_elder_brain_5$§!"
+ 
+ mind_flayer_elder_brain_upgrade.101.desc:0 "The $d_elder_brain_1$ on §Y[Root.GetName]§! has been grown"
+ mind_flayer_elder_brain_upgrade.102.desc:0 "The $d_elder_brain_1$ on §Y[Root.GetName]§! has been grown into $d_elder_brain_2$"
+ mind_flayer_elder_brain_upgrade.103.desc:0 "The $d_elder_brain_2$ on §Y[Root.GetName]§! has been grown into $d_elder_brain_3$"
+ mind_flayer_elder_brain_upgrade.104.desc:0 "The $d_elder_brain_3$ on §Y[Root.GetName]§! has been grown into $d_elder_brain_4$"
+ mind_flayer_elder_brain_upgrade.105.desc:0 "The $d_elder_brain_4$ on §Y[Root.GetName]§! has been grown into $d_elder_brain_5$"
+
+# Technology
+ tech_t1_elder_brain:0 "$d_elder_brain_1$ (Tier 1)"
+ tech_t1_elder_brain_desc:0 "Allows the hive to grow an $d_elder_brain_1$"
+
+ tech_t2_elder_brain:0 "$d_elder_brain_2$ (Tier 2)"
+ tech_t2_elder_brain_desc:0 "Allows the hive to grow an $d_elder_brain_2$"
+
+ tech_t3_elder_brain:0 "$d_elder_brain_3$ (Tier 3)"
+ tech_t3_elder_brain_desc:0 "Allows the hive to grow an $d_elder_brain_3$"
+
+ tech_t4_elder_brain:0 "$d_elder_brain_2$ (Tier 4)"
+ tech_t4_elder_brain_desc:0 "Allows the hive to grow an $d_elder_brain_4$"
+
+ tech_t5_elder_brain:0 "$d_elder_brain_5$ (Tier 5)"
+ tech_t5_elder_brain_desc:0 "Allows the hive to grow an $d_elder_brain_5$"
+
+ tech_mind_thrall_1:0 "Mind Thrall Policy - $nice_mind_thrall_policy_2$"
+ tech_mind_thrall_1_desc:0 "Enables the $nice_mind_thrall_policy_2$ Mind Thrall policy"
+
+ tech_mind_thrall_2:0 "Mind Thrall Policy - $nice_mind_thrall_policy_3$"
+ tech_mind_thrall_2_desc:0 "Enables the $nice_mind_thrall_policy_3$ Mind Thrall policy"
+
+ tech_mind_thrall_3:0 "Mind Thrall Policy - $nice_mind_thrall_policy_4$"
+ tech_mind_thrall_3_desc:0 "Enables the $nice_mind_thrall_policy_4$ Mind Thrall policy"
+ 
+ tech_mind_thrall_improvements_1:0 "Mind Thrall Improvements (Tier 1)"
+ tech_mind_thrall_improvements_2:0 "Mind Thrall Improvements (Tier 2)"
+ tech_mind_thrall_improvements_3:0 "Mind Thrall Improvements (Tier 3)"
+ tech_mind_thrall_improvements_4:0 "Mind Thrall Improvements (Tier 4)"
+ tech_mind_thrall_improvements_5:0 "Mind Thrall Improvements (Tier 5)"
+ tech_repeatable_mind_thrall_improvements:0 "Mind Thrall Improvements (repeatable)" 
+
+# Armies
+ nice_elder_brain_1_army:0 "$d_elder_brain_1$"
+ NAME_nice_elder_brain_1_army:0 "$d_elder_brain_1$"
+
+ nice_elder_brain_2_army:0 "$d_elder_brain_2$"
+ NAME_nice_elder_brain_2_army:0 "$d_elder_brain_2$"
+
+ nice_elder_brain_3_army:0 "$d_elder_brain_3$"
+ NAME_nice_elder_brain_3_army:0 "$d_elder_brain_3$"
+
+ nice_elder_brain_4_army:0 "$d_elder_brain_4$"
+ NAME_nice_elder_brain_4_army:0 "$d_elder_brain_4$"
+
+ nice_elder_brain_5_army:0 "$d_elder_brain_5$"
+ NAME_nice_elder_brain_5_army:0 "$d_elder_brain_5$"
+
+# Descriptions where I can't be arsed to add flavour text to yet
+  policy_nice_mind_thrall_policy_desc:0 ""
+  nice_mind_thrall_policy_0_desc:0 ""
+  nice_mind_thrall_policy_1_desc:0 ""
+  nice_mind_thrall_policy_2_desc:0 ""
+  nice_mind_thrall_policy_3_desc:0 ""
+  nice_mind_thrall_policy_4_desc:0 ""
+  policy_nice_mind_thrall_focus_policy_desc:0 ""
+  nice_mind_thrall_focus_policy_0_desc:0 ""
+  nice_mind_thrall_focus_policy_soc_desc:0 ""
+  nice_mind_thrall_focus_policy_eng_desc:0 ""
+  nice_mind_thrall_focus_policy_phy_desc:0 ""
+
+  tech_mind_thrall_improvements_1_desc:0 ""
+  tech_mind_thrall_improvements_2_desc:0 ""
+  tech_mind_thrall_improvements_3_desc:0 ""
+  tech_mind_thrall_improvements_4_desc:0 ""
+  tech_mind_thrall_improvements_5_desc:0 ""
+  tech_repeatable_mind_thrall_improvements_desc:0 ""
+
+  decision_elder_brain_1_desc:0 ""
+  decision_elder_brain_2_desc:0 ""
+  decision_elder_brain_3_desc:0 ""
+  decision_elder_brain_4_desc:0 ""
+  decision_elder_brain_5_desc:0 ""
+
+  d_elder_brain_upkeep_desc:0 ""
+  d_elder_brain_1_desc:0 ""
+  d_elder_brain_2_desc:0 ""
+  d_elder_brain_3_desc:0 ""
+  d_elder_brain_4_desc:0 ""
+  d_elder_brain_5_desc:0 ""
