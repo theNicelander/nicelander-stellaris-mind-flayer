@@ -1,0 +1,20 @@
+planet_nice_mind_thrall = {
+	icon = "job_researcher"
+	parent = planet_jobs_productive
+	generate_add_modifiers = {
+		produces
+		upkeep
+	}
+	generate_mult_modifiers = {
+		produces
+	}
+	modifier_category = pop
+}
+
+pop_category_nice_mind_thrall = {
+	parent = planet_pops
+	generate_add_modifiers = {
+		upkeep
+	}
+	modifier_category = pop
+}

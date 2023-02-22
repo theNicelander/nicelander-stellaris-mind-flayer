@@ -1,0 +1,177 @@
+namespace = mind_flayer_elder_brain_upgrade
+
+@nice_pop_sacrifice_1 = 1
+@nice_pop_sacrifice_2 = 3
+@nice_pop_sacrifice_3 = 5
+@nice_pop_sacrifice_4 = 7
+@nice_pop_sacrifice_5 = 10
+
+@nice_brain_upgrade_unity_1 = 250
+@nice_brain_upgrade_unity_2 = 500
+@nice_brain_upgrade_unity_3 = 1500
+@nice_brain_upgrade_unity_4 = 5000
+@nice_brain_upgrade_unity_5 = 10000
+
+#### Army events
+planet_event = {
+	id = mind_flayer_elder_brain_upgrade.101
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.101.desc
+
+	picture = GFX_evt_vortex
+	show_sound = event_space_amoeba
+	location = from
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mind_flayer_elder_brain_upgrade.101.confirm
+		create_army = {
+			name = "NAME_nice_elder_brain_1_army"
+			type = "nice_elder_brain_1_army"
+		}
+		
+		owner = { add_resource = { unity = @nice_brain_upgrade_unity_1 } }
+
+		kill_own_pop = yes
+	}
+}
+
+planet_event = {
+	id = mind_flayer_elder_brain_upgrade.102
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.102.desc
+
+	picture = GFX_evt_vortex
+	show_sound = event_space_amoeba
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = mind_flayer_elder_brain_upgrade.102.confirm
+		
+		every_planet_army = {
+			limit = { army_type = nice_elder_brain_1_army }
+			remove_army = yes
+		}
+
+		create_army = {
+			name = "NAME_nice_elder_brain_2_army"
+			type = "nice_elder_brain_2_army"
+		}
+		owner = { add_resource = { unity = @nice_brain_upgrade_unity_2 } }
+		
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+	}
+}
+
+planet_event = {
+	id = mind_flayer_elder_brain_upgrade.103
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.103.desc
+
+	picture = GFX_evt_vortex
+	show_sound = event_space_amoeba
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = mind_flayer_elder_brain_upgrade.103.confirm
+
+		every_planet_army = {
+			limit = { army_type = nice_elder_brain_2_army }
+			remove_army = yes
+		}
+
+		create_army = {
+			name = "NAME_nice_elder_brain_3_army"
+			type = "nice_elder_brain_3_army"
+		}
+		owner = { add_resource = { unity = @nice_brain_upgrade_unity_3 } }
+
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+	}
+}
+
+planet_event = {
+	id = mind_flayer_elder_brain_upgrade.104
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.104.desc
+
+	picture = GFX_evt_vortex
+	show_sound = event_space_amoeba
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = mind_flayer_elder_brain_upgrade.104.confirm
+
+		every_planet_army = {
+			limit = { army_type = nice_elder_brain_3_army }
+			remove_army = yes
+		}
+
+		create_army = {
+			name = "NAME_nice_elder_brain_4_army"
+			type = "nice_elder_brain_4_army"
+		}
+
+		owner = { add_resource = { unity = @nice_brain_upgrade_unity_4 } }
+
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+	}
+}
+
+planet_event = {
+	id = mind_flayer_elder_brain_upgrade.105
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.105.desc
+
+	picture = GFX_evt_vortex
+	show_sound = event_space_amoeba
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = mind_flayer_elder_brain_upgrade.105.confirm
+
+		every_planet_army = {
+			limit = { army_type = nice_elder_brain_4_army }
+			remove_army = yes
+		}
+
+		create_army = {
+			name = "NAME_nice_elder_brain_5_army"
+			type = "nice_elder_brain_5_army"
+		}
+
+		owner = { add_resource = { unity = @nice_brain_upgrade_unity_5 } }
+
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+		kill_own_pop = yes
+	}
+}

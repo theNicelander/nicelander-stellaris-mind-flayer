@@ -1,0 +1,240 @@
+# How much science/unity brains produce per level
+# Upkeep for LVL 1-4  2x production 
+# Upkeep for LVL 5 is 3x production
+@d_elder_brain_1_produces = 10
+@d_elder_brain_2_produces = 30
+@d_elder_brain_3_produces = 100
+@d_elder_brain_4_produces = 250
+@d_elder_brain_5_produces = 500
+
+# Stability by level
+@d_elder_brain_1_stability = 5
+@d_elder_brain_2_stability = 15
+@d_elder_brain_3_stability = 25
+@d_elder_brain_4_stability = 35
+@d_elder_brain_5_stability = 40
+
+# Housing by level
+@d_elder_brain_1_max_building = 1
+@d_elder_brain_2_max_building = 2
+@d_elder_brain_3_max_building = 4
+@d_elder_brain_4_max_building = 6
+@d_elder_brain_5_max_building = 10
+
+# Deposit that gives some upkeep to balance the large upkeep of the brain
+d_elder_brain_upkeep = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare
+
+	icon = d_elder_brain
+
+	potential = {
+		exists = owner
+		owner = {
+			has_civic = civic_nice_mind_flayer
+		}
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			food = @d_elder_brain_1_produces
+			energy = @d_elder_brain_1_produces
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+# Starting deposit
+d_elder_brain_1 = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare
+
+	icon = d_elder_brain
+
+	potential = {
+		exists = owner
+		owner = {
+			has_civic = civic_nice_mind_flayer
+		}
+	}
+
+	planet_modifier = {
+		planet_stability_add = @d_elder_brain_1_stability
+		planet_amenities_add = @d_elder_brain_1_stability
+		planet_max_buildings_add = @d_elder_brain_1_max_building
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			society_research = @d_elder_brain_1_produces
+			unity = @d_elder_brain_1_produces
+		}
+		upkeep = {
+			food = @d_elder_brain_1_produces
+			energy = @d_elder_brain_1_produces
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+
+# Hive Core (1st) needed
+d_elder_brain_2 = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare
+
+	icon = d_elder_brain
+
+	potential = {
+		exists = owner
+		owner = {
+			has_civic = civic_nice_mind_flayer
+		}
+	}
+
+	planet_modifier = {
+		planet_stability_add = @d_elder_brain_2_stability
+		planet_amenities_add = @d_elder_brain_2_stability
+		planet_max_buildings_add = @d_elder_brain_2_max_building
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			society_research = @d_elder_brain_2_produces
+			unity = @d_elder_brain_2_produces
+		}
+		upkeep = {
+			food = @d_elder_brain_2_produces
+			energy = @d_elder_brain_2_produces
+		}
+
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+# Hive Nexus (2nd)
+d_elder_brain_3 = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare
+
+	icon = d_elder_brain
+
+	potential = {
+		exists = owner
+		owner = {
+			has_civic = civic_nice_mind_flayer
+		}
+	}
+
+	planet_modifier = {
+		planet_stability_add = @d_elder_brain_3_stability
+		planet_amenities_add = @d_elder_brain_3_stability
+		planet_max_buildings_add = @d_elder_brain_3_max_building
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			society_research = @d_elder_brain_3_produces
+			unity = @d_elder_brain_3_produces
+		}
+		upkeep = {
+			food = @d_elder_brain_3_produces
+			energy = @d_elder_brain_3_produces
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+# Hive Nexus (2nd)
+d_elder_brain_4 = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare
+
+	icon = d_elder_brain
+
+	potential = {
+		exists = owner
+		owner = {
+			has_civic = civic_nice_mind_flayer
+		}
+	}
+
+	planet_modifier = {
+		planet_stability_add = @d_elder_brain_4_stability
+		planet_amenities_add = @d_elder_brain_4_stability
+		planet_max_buildings_add = @d_elder_brain_4_max_building
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			society_research = @d_elder_brain_4_produces
+			unity = @d_elder_brain_4_produces
+		}
+		upkeep = {
+			food = @d_elder_brain_4_produces
+			energy = @d_elder_brain_4_produces
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+# Hive Nexus (2nd) & more than 100 pops
+d_elder_brain_5 = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare
+
+	icon = d_elder_brain
+
+	potential = {
+		exists = owner
+		owner = {
+			has_civic = civic_nice_mind_flayer
+		}
+	}
+
+	planet_modifier = {
+		planet_stability_add = @d_elder_brain_5_stability
+		planet_amenities_add = @d_elder_brain_5_stability
+		planet_max_buildings_add = @d_elder_brain_5_max_building
+
+	}
+
+	modifier = mod_galaxy_brain_empire
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			society_research = @d_elder_brain_5_produces
+			unity = @d_elder_brain_5_produces
+		}
+		upkeep = {
+			food = @d_elder_brain_5_produces
+			energy = @d_elder_brain_5_produces
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}

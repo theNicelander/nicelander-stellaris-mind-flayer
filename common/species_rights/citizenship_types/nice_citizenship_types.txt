@@ -1,0 +1,28 @@
+citizenship_nice_mind_thrall = {
+	is_slavery = yes
+
+	potential = {
+		NOR = {
+			has_trait = trait_mechanical
+			has_trait = trait_machine_unit
+		}
+	}
+
+	in_breach_of = {
+		{
+			key = resolution_greatergood_balance_in_the_middle
+		}
+		{
+			key = resolution_greatergood_universal_prosperity_mandate
+		}
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = same_species_disallowed
+			NOT = { is_same_species = from }
+		}
+	}
+
+	ai_will_do = { factor = 100 }
+}

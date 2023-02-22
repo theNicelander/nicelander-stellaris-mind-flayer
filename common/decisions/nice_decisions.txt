@@ -1,0 +1,251 @@
+# Food cost
+@nice_decision_elder_brain_cost_1 = 1000
+@nice_decision_elder_brain_cost_2 = 5000
+@nice_decision_elder_brain_cost_3 = 10000
+@nice_decision_elder_brain_cost_4 = 25000
+@nice_decision_elder_brain_cost_5 = 50000
+
+# Time in days to enact the decision
+@nice_decision_elder_brain_enact_time_1 = 360 	# 1 year
+@nice_decision_elder_brain_enact_time_2 = 720 	# 2 years
+@nice_decision_elder_brain_enact_time_3 = 1080	# 3 years
+@nice_decision_elder_brain_enact_time_4 = 1440 	# 4 years
+@nice_decision_elder_brain_enact_time_5 = 1800	# 5 years
+
+# Pop requirements
+@nice_decision_elder_brain_pops_needed_1 = 3
+@nice_decision_elder_brain_pops_needed_2 = 10
+@nice_decision_elder_brain_pops_needed_3 = 25
+@nice_decision_elder_brain_pops_needed_4 = 50
+@nice_decision_elder_brain_pops_needed_5 = 100
+
+# T1
+decision_elder_brain_1 = {
+	owned_planets_only = yes
+
+	enactment_time = @nice_decision_elder_brain_enact_time_1
+	resources = {
+		category = decisions
+		cost = { food = @nice_decision_elder_brain_cost_1 }
+	}
+
+	prerequisites = { "tech_t1_elder_brain" }
+
+	potential = {
+		owner = { has_civic = civic_nice_mind_flayer }
+
+		NOR = { 
+			has_deposit  = d_elder_brain_1
+			has_deposit  = d_elder_brain_2
+			has_deposit  = d_elder_brain_3
+			has_deposit  = d_elder_brain_4
+			has_deposit  = d_elder_brain_5
+		}
+	}
+	allow = {
+		count_owned_pop = {
+			count >= @nice_decision_elder_brain_pops_needed_1
+		}
+	}
+
+	effect = {
+		add_deposit = d_elder_brain_1
+		planet_event = { id = mind_flayer_elder_brain_upgrade.101 } 
+	}
+
+	ai_weight = { weight = 100 }
+}
+
+# T2
+decision_elder_brain_2 = {
+	owned_planets_only = yes
+
+	enactment_time = @nice_decision_elder_brain_enact_time_2
+	resources = {
+		category = decisions
+		cost = { food = @nice_decision_elder_brain_cost_2 }
+	}
+
+	prerequisites = { "tech_t2_elder_brain" }
+
+	potential = {
+
+		owner = { has_civic = civic_nice_mind_flayer }
+		
+		AND = {
+			has_deposit  = d_elder_brain_1
+			NOR = { 
+				has_deposit  = d_elder_brain_2
+				has_deposit  = d_elder_brain_3
+				has_deposit  = d_elder_brain_4
+				has_deposit  = d_elder_brain_5
+			}
+		}
+	}
+
+	allow = {		
+		count_owned_pop = {
+			count >= @nice_decision_elder_brain_pops_needed_2
+		}
+	}
+
+	effect = {
+		remove_deposit = d_elder_brain_1 
+		add_deposit = d_elder_brain_2
+		planet_event = { id = mind_flayer_elder_brain_upgrade.102 } 
+
+	}
+
+	ai_weight = { weight = 100 }
+}
+
+# T3
+decision_elder_brain_3 = {
+	owned_planets_only = yes
+
+	enactment_time = @nice_decision_elder_brain_enact_time_3
+	resources = {
+		category = decisions
+		cost = { food = @nice_decision_elder_brain_cost_3 }
+	}
+
+	prerequisites = { "tech_t3_elder_brain" }
+	
+
+	potential = {
+		
+		owner = { has_civic = civic_nice_mind_flayer }
+
+		AND = {
+			has_deposit  = d_elder_brain_2
+			
+			NOR = { 
+				has_deposit  = d_elder_brain_1
+
+				has_deposit  = d_elder_brain_3
+				has_deposit  = d_elder_brain_4
+				has_deposit  = d_elder_brain_5
+			}
+		}
+	}
+
+	allow = {
+		is_artificial = no
+		count_owned_pop = {
+			count >= @nice_decision_elder_brain_pops_needed_3
+		}
+	}
+
+	effect = {
+		remove_deposit = d_elder_brain_2
+		add_deposit = d_elder_brain_3
+		planet_event = { id = mind_flayer_elder_brain_upgrade.103 } 
+	}
+
+	ai_weight = { weight = 100 }
+}
+
+# T4
+decision_elder_brain_4 = {
+	owned_planets_only = yes
+
+	enactment_time = @nice_decision_elder_brain_enact_time_4
+	resources = {
+		category = decisions
+		cost = { food = @nice_decision_elder_brain_cost_4 }
+	}
+
+	prerequisites = { "tech_t4_elder_brain" }
+
+	potential = {
+		owner = { has_civic = civic_nice_mind_flayer }
+		
+		AND = {
+			has_deposit  = d_elder_brain_3
+			
+			NOR = { 
+				has_deposit  = d_elder_brain_1
+				has_deposit  = d_elder_brain_2
+
+				has_deposit  = d_elder_brain_4
+				has_deposit  = d_elder_brain_5
+			}
+		}
+	}
+
+	allow = {
+		is_artificial = no
+		count_owned_pop = {
+			count >= @nice_decision_elder_brain_pops_needed_4
+		}
+	}
+
+	effect = {
+		remove_deposit = d_elder_brain_3
+		add_deposit = d_elder_brain_4
+		planet_event = { id = mind_flayer_elder_brain_upgrade.104 } 
+	}
+
+	ai_weight = { weight = 100 }
+}
+
+# T5
+decision_elder_brain_5 = {
+	owned_planets_only = yes
+
+	enactment_time = @nice_decision_elder_brain_enact_time_5
+	resources = {
+		category = decisions
+		cost = { food = @nice_decision_elder_brain_cost_5 }
+	}
+
+	prerequisites = { "tech_t5_elder_brain" }
+
+	potential = {
+		owner = { has_civic = civic_nice_mind_flayer }
+		
+		AND = {
+			has_deposit  = d_elder_brain_4
+			
+			NOR = { 
+				has_deposit  = d_elder_brain_1
+				has_deposit  = d_elder_brain_2
+				has_deposit  = d_elder_brain_3
+
+				has_deposit  = d_elder_brain_5
+			}
+		}
+	}
+
+	allow = {
+		is_capital = yes
+
+		is_artificial = no
+
+		count_owned_pop = {
+			count >= @nice_decision_elder_brain_pops_needed_5
+		}
+
+		custom_tooltip = {
+			fail_text = decision_elder_brain_5_only_one
+			NOT = {
+				owner = {
+					any_owned_planet = { has_deposit = d_elder_brain_5 }
+				}
+			}
+		}
+
+	}
+
+	effect = {
+		remove_deposit = d_elder_brain_4
+		add_deposit = d_elder_brain_5
+
+		owner = {
+			country_event = { id = mind_flayer.2 } 
+			planet_event = { id = mind_flayer_elder_brain_upgrade.105 }
+		}
+	}
+
+	ai_weight = { weight = 100 }
+}

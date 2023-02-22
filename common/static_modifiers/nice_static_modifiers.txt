@@ -1,0 +1,3 @@
+mod_galaxy_brain_empire = {
+	planet_stability_add = 10
+}

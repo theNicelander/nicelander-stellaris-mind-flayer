@@ -1,0 +1,19 @@
+living_standard_nice_mind_thrall = {
+
+	potential = {
+		exists = from
+		from = { has_valid_civic = civic_nice_mind_flayer }
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = requires_citizenship_nice_mind_thrall
+			has_citizenship_type = { 
+				type = citizenship_nice_mind_thrall 
+				country = from 
+			}
+		}
+	}
+
+	ai_will_do = { factor = 100 }
+}

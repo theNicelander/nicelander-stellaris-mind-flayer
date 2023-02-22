@@ -1,0 +1,21 @@
+slavery_nice_mind_thrall = {
+	is_capped_by_modifier = no
+
+	pop_tooltip = LIVESTOCK
+	pop_status_frame = 6
+
+	potential = {
+		host_has_dlc = "Utopia"
+		from = { has_civic = civic_nice_mind_flayer }
+	}
+
+	in_breach_of = {
+		{
+			key = resolution_greatergood_greater_than_ourselves
+		}
+	}
+
+	allow = { hidden_trigger = { exists = from } }
+	
+	ai_will_do = { factor = 100 }
+}

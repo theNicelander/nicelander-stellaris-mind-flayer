@@ -1,0 +1,35 @@
+civic_nice_mind_flayer = {
+	playable = { host_has_dlc = "Utopia" }
+	
+	potential = {
+		authority = { value = auth_hive_mind }
+	}
+
+	random_weight = { base = 10 }
+	description = civic_tooltip_nice_mind_thrall_effects
+	
+	modifier = {
+		planet_stability_add = -10
+	}
+
+	possible = {
+		origin = {
+			NOR = {
+				value = origin_common_ground
+				value = origin_hegemon
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_hive_empath
+			}
+		}
+	}
+
+	has_secondary_species = {
+		title = civic_nice_mind_flayer_secondary_species
+		traits = {
+			trait = trait_nice_mind_thrall
+		}
+	}
+}
