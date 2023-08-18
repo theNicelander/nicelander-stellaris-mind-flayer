@@ -11,4 +11,4 @@ tags={
 	"Buildings"
 }
 name="Nicelander's Civics"
-supported_version="3.6.1"
+supported_version="3.*"
