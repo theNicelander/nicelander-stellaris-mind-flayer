@@ -5,12 +5,3 @@ can_add_tadpoles = {
 		has_civic = civic_nice_mind_flayer
 	}
 }
-
-
-add_tadpole = {
-	modify_species = {
-		species = this
-		add_trait = trait_nice_mind_thrall
-		add_traits_at_start_of_list = yes
-	}
-}

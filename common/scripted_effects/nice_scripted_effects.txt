@@ -47,3 +47,16 @@ kill_own_pop = {
 		kill_pop = yes
 	}
 }
+
+add_tadpole = {
+	random_owned_pop = {
+		limit = { 
+			has_slavery_type = { type = slavery_nice_mind_thrall }
+		}
+		modify_species = {
+			species = this
+			add_trait = trait_nice_mind_thrall
+			add_traits_at_start_of_list = yes
+		}
+	}
+}

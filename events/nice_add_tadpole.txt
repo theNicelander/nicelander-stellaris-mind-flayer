@@ -1,24 +1,14 @@
-planet_event = { #Braiiiins
+# NOT WORKING!!!
+planet_event = { #Add tadpole trait to random enslaved pop without the pop
 	id = nice_add_tadpole.1
 	is_triggered_only = yes
 	hide_window = yes
 
 	trigger = {
-		fromfrom = { 
-			is_organic_species = yes
-			NOT = { has_trait = trait_nice_mind_thrall }
-		}
 		owner = { has_valid_civic = civic_nice_mind_flayer }
 	}
 
 	immediate = {
-		fromfrom = {
-			add_tadpole = yes
-		}
-	}
-	after = {
-		fromfrom = {
-			clear_pop_category = yes #To make sure that the zombie pop does not spawn as a non worker strata
-		}
+		add_tadpole = yes
 	}
 }

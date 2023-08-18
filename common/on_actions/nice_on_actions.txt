@@ -4,20 +4,34 @@ on_game_start_country = {
 	}
 }
 
-on_pop_abducted = {
+on_colony_yearly_pulse ={
 	events = {
-		nice_add_tadpole.1
+		nice_add_tadpole.1 # add tadpole to random pop on planet without trait
 	}
 }
 
-on_pop_enslaved = {
-	events = {
-		nice_add_tadpole.1
-	}
-}
-
-on_pop_added = {
-	events = {
-		nice_add_tadpole.1
-	}
-}
+# BELOW NOT WORKING
+# on_pop_abducted = {
+# 	events = {
+# 		nice_add_tadpole.1
+# 	}
+# }
+# 
+# on_pop_enslaved = {
+# 	events = {
+# 		nice_add_tadpole.1
+# 	}
+# }
+# 
+# on_pop_added = {
+# 	events = {
+# 		nice_add_tadpole.1
+# 	}
+# }
+# 
+# 
+# on_colony_5_year_pulse = {
+# 	events = {
+# 		nice_add_tadpole.2
+# 	}
+# }
