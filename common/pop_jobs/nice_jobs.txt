@@ -86,6 +86,15 @@ nice_mind_thrall = {
 		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
 	}
 
+	triggered_planet_modifier = {
+		potential = {
+			can_assemble_hive_pop = yes
+		}
+		modifier = {
+			planet_pop_assembly_organic_add = 0.1
+		}
+	}
+
 	weight = {
 		weight = @special_job_weight
 	}
