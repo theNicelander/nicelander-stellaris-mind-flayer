@@ -86,6 +86,7 @@ nice_mind_thrall = {
 		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
 	}
 
+	# Give pop assembly if they have the mind thrall trait
 	triggered_planet_modifier = {
 		potential = {
 			can_assemble_hive_pop = yes
