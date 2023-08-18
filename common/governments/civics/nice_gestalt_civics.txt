@@ -10,7 +10,11 @@ civic_nice_mind_flayer = {
 	
 	modifier = {
 		planet_stability_add = -10
-		planet_pop_assembly_organic_mult = -0.42
+		planet_crime_no_happiness_add = -10
+	}
+
+	country_modifier = {
+		pop_growth_speed = -0.42
 	}
 
 	possible = {
