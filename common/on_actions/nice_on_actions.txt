@@ -3,3 +3,21 @@ on_game_start_country = {
 		mind_flayer.1 # add elder brain to planet
 	}
 }
+
+on_pop_abducted = {
+	events = {
+		nice_add_tadpole.1
+	}
+}
+
+on_pop_enslaved = {
+	events = {
+		nice_add_tadpole.1
+	}
+}
+
+on_pop_added = {
+	events = {
+		nice_add_tadpole.1
+	}
+}
