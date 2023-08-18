@@ -29,5 +29,6 @@ trait_nice_mind_thrall = {
 		planet_pops_upkeep_mult = -0.25
 	}
 
-	icon = "gfx/interface/icons/traits/trait_zombie.dds"	
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	custom_tooltip = TRAIT_NICE_MIND_TRHALL
 }
