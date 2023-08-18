@@ -11,7 +11,7 @@ nice_mind_thrall = {
 	}
 
 	pop_modifier = {
-		pop_housing_usage_add = -1
+		pop_housing_usage_add = -0.5
 	}
 
 	possible_pre_triggers = {
@@ -82,7 +82,7 @@ nice_mind_thrall = {
 		potential = {
 			always = yes
 		}
-		planet_amenities_add = 2
+		planet_amenities_add = 1
 		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
 	}
 
