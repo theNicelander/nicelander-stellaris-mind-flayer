@@ -91,7 +91,7 @@ nice_mind_thrall = {
 			can_assemble_hive_pop = yes
 		}
 		modifier = {
-			planet_pop_assembly_organic_add = 0.1
+			planet_pop_assembly_organic_add = 0.2
 		}
 	}
 
