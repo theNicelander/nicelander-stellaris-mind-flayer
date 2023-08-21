@@ -3,7 +3,6 @@ trait_nice_mind_thrall = {
 
 	forced_happiness = yes
 	potential_crossbreeding_chance = 0
-	initial = no
 
 	# Needs to be a Mind Flayer to add the Tadpole trait
 	species_potential_add = {
@@ -11,8 +10,17 @@ trait_nice_mind_thrall = {
 	}
 
 	# Can never remove it
-	species_possible_remove = { always = no }
-	species_possible_merge_remove = { always = no }
+	initial = no
+	randomized = no
+	species_potential_add = {
+		always = no
+	}
+	species_possible_remove = {
+		always = no
+	}
+	species_possible_merge_add = {
+		always = no
+	}
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
@@ -21,4 +29,38 @@ trait_nice_mind_thrall = {
 
 	icon = "gfx/interface/icons/traits/trait_tadpole_1.dds"
 	custom_tooltip = TRAIT_NICE_MIND_TRHALL
+}
+
+trait_nice_mind_flayer = {
+	# Based on trait_necrophage
+	cost = 0
+	potential_crossbreeding_chance = 0
+	opposites = { "trait_plantoid_budding" "trait_lithoid_budding" "trait_advanced_budding" "trait_tiyanki" }
+	sorting_priority = 0
+
+	initial = no
+	randomized = no
+	species_potential_add = {
+		always = no
+	}
+	species_possible_remove = {
+		always = no
+	}
+	species_possible_merge_add = {
+		always = no
+	}
+	forced_happiness = no
+	immortal_leaders = no
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	ai_weight = {
+		weight = 0
+	}
+
+	icon = "gfx/interface/icons/traits/trait_necrophage.dds"
+
+	modifier = {
+		leader_age = 100
+		pop_growth_speed = -1.0
+	}
 }
