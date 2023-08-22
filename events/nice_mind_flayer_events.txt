@@ -47,3 +47,44 @@ country_event = {
 		}
 	}
 }
+
+### Add secondary species to planet
+country_event = {
+	id = mind_flayer.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_valid_civic = civic_nice_mind_flayer
+	}
+
+	immediate = {
+		capital_scope = {
+			# Create thrall pops
+			create_species = {
+				name = "Mind Thrall"
+				plural = "Mind Thralls"
+				class = FUN
+				portrait = "fun11"
+				namelist = "FUN4"
+				homeworld = root
+
+				traits = {
+					ideal_planet_class = root
+					trait = trait_nice_mind_thrall
+					trait = trait_hive_mind
+				}
+			}
+			while = {
+				count = 5
+				# Remove one of our pops
+				kill_own_pop = yes
+				
+				# Add thrall pop instead
+				create_pop = {
+					species = last_created_species
+				}
+			}
+		}
+	}
+}

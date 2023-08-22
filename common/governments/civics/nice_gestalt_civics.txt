@@ -31,12 +31,4 @@ civic_nice_mind_flayer = {
 	traits = {
 		trait = trait_nice_mind_flayer
 	}
-
-	has_secondary_species = {
-		title = civic_nice_mind_flayer_secondary_species
-		traits = {
-			trait = trait_nice_mind_thrall
-			trait = trait_hive_mind
-		}
-	}
 }

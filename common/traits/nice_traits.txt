@@ -36,7 +36,7 @@ trait_nice_mind_flayer = {
 	cost = 0
 	potential_crossbreeding_chance = 0
 	opposites = { "trait_plantoid_budding" "trait_lithoid_budding" "trait_advanced_budding" "trait_tiyanki" }
-	sorting_priority = 0
+	sorting_priority = 99
 
 	initial = no
 	randomized = no
@@ -61,6 +61,6 @@ trait_nice_mind_flayer = {
 
 	modifier = {
 		leader_age = 100
-		pop_growth_speed = -1.0
+		pop_growth_speed = -1.25
 	}
 }
