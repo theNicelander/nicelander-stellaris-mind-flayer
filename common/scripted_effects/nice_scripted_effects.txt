@@ -1,49 +1,19 @@
-generate_start_pops = {
-	optimize_memory
-
-	if = {
-		# Limit to mind flayers
-		limit = {
-			owner = {
-				has_valid_civic = civic_nice_mind_flayer
-			}
-		}
-
-		# Set secondary species rights
-		last_created_species = {
-			set_citizenship_type = {
-				country = root
-				type = citizenship_nice_mind_thrall
-			}
-			set_slavery_type = {
-				country = root
-				type = slavery_nice_mind_thrall
-			}
-		}
-		# Create thrall pops
-		while = {
-			count = 5
-			create_pop = {
-				species = last_created_species
-				ethos = random
-			}
-		}
-
-		# Create main pops
-		while = {
-			limit = { num_pops < 33 }
-			create_pop = {
-				species = owner_main_species
-				ethos = random
-			}
-		}
-	}
-}
-
-
 kill_own_pop = {
 	random_owned_pop = {
 		limit = { is_same_species = root }
 		kill_pop = yes
+	}
+}
+
+add_tadpole = {
+	random_owned_pop = {
+		limit = { 
+			has_slavery_type = { type = slavery_nice_mind_thrall }
+		}
+		modify_species = {
+			species = this
+			add_trait = trait_nice_mind_thrall
+			add_traits_at_start_of_list = yes
+		}
 	}
 }

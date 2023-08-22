@@ -1,28 +1,35 @@
 ﻿l_english:
   # civics
  civic_nice_mind_flayer:0 "Mind Flayers"
- civic_nice_mind_flayer_desc:0 "These entities seek to expand their dominion over all other lifeforms. They consume their victims' very personality by devouring their brains while still alive. \n\nAt the heart of the Mind Flayer community lies the §YElder Brain§!. It forms the physical and spiritual center of the hive and serves as a living library of it's history, technology, and knowledge. \n\nMind Flayers sacrifice their brain and life to merge with the §YElder Brain§!, strengthening its powers and intellect."
- civic_tooltip_nice_mind_thrall_effects:0 "Start the game with §Y8§! organic £pop£ Pops as £job_bio_trophy£ §Y$slavery_nice_mind_thrall$§!, a special slavery type that produces £physics£ £society£ £engineering£ §YResearch Points§!. \n\nCan build §YElder Brains§! on planets, an upgradeble deposit providing £stability£ §YStability§!, £society£ £engineering£ §YResearch Points§!, £unity£ §YUnity§! and a special §YDefence Army§!. \n\nThe §YElder Brain§! requires large amounts of £food£ §YFood§! & £energy£ §YEnergy§! to build, upgrade and maintain, as well as sacrifical £pops£ §YPops§! for the glory of the §YElder Brain§!\n "
+ civic_nice_mind_flayer_desc:0 "These Illithids seek to expand their dominion over all other lifeforms. They consume their victims' very personality by devouring their brains while still alive and infecting them with a  §YMind Flayer Tadpole§!. \n\nAt the heart of the Mind Flayer community lies the §YElder Brain§!. It forms the physical and spiritual center of the hive and serves as a living library of it's history, technology, and knowledge. \n\nMind Flayers sacrifice themselves to merge their brain with the §YElder Brain§!, strengthening its powers and intellect."
+
+ civic_tooltip_nice_mind_thrall_effects:0 "Start the game with §Y5§! organic £pop£ Pops as £job_bio_trophy£ §Y$slavery_nice_mind_thrall$§!, a special slavery type that produces £physics£ £society£ £engineering£ §YResearch Points§! and increase £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!. \n\nCan build §YElder Brains§! on planets, a deposit upgradable via planetary decision, providing £stability£ §YStability§!, £society£ §YResearch§!, £unity£ §YUnity§! and a special §YDefence Army§!. \n\nThe §YElder Brain§! requires £energy£ §YEnergy§! maintain, £food£ §YFood§! to build and upgrade as well as £pops£ §YPops§! to be sacrificed for the glory of the §YElder Brain§!\n "
+
+# Traits
+ trait_nice_mind_flayer:0 "Mind Flayer"
+ trait_nice_mind_flayer_desc:0 "Mind Flayers are powerful beings that can control the minds of others, and feeds on the brains of its victims. It cannot grow by natural means, but instead infects other beings with a §YMind Flayer Tadpole§! which slowly turns the creature into a Mind Flayer"
+ trait_nice_mind_thrall:0 "Mind Thrall"
+ trait_nice_mind_thrall_desc:0 "Mind Thralls are infected by a §YMind Flayer Tadpole§!, which consumes its host from the inside, eventually transforming them into another Mind Flayer."
+ TRAIT_NICE_MIND_TRHALL:0 "If working as a Mind Thrall, reduce upkeep by §G25%§! and produces §G0.2§! £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!."
 
 # Secondary species
  civic_nice_mind_flayer_secondary_species:0 "Mind Thrall"
- trait_nice_mind_thrall:0 "Mind Thrall"
- trait_nice_mind_thrall_desc:0 "These Mind Thrall were inferior in every way to the Mind Flayers. They never stood a chance"
+
 
  # Living Standards
  living_standard_nice_mind_thrall:0 "Mind Thrall"
- living_standard_nice_mind_thrall_tooltip:1 "This organism's brain is being used for the glory of the hive.\n\n$ORGANIC_TROPHY_POP_EFFECTS$"
+ living_standard_nice_mind_thrall_tooltip:1 "This organism's brain is being used for the glory of the §YElder Brain§!.\n\n$ORGANIC_TROPHY_POP_EFFECTS$"
  living_standard_nice_mind_thrall_tooltip_delayed:0 "§LWho's a good Mind Thrall? You are! Yes you are!§!"
 
  # Citizenship
  citizenship_nice_mind_thrall:0 "Mind Thrall"
- citizenship_nice_mind_thrall_tooltip:0 "All Pops of this species will be §YEnslaved§! to aid the Hive Intelligence."
+ citizenship_nice_mind_thrall_tooltip:0 "All Pops of this species will be §YEnslaved§! to aid the §YElder Brain§!."
  citizenship_nice_mind_thrall_tooltip_delayed:0 "§LFreedom is an illusion. For some this truth is more tangible than it is for others.§!"
  requires_citizenship_nice_mind_thrall:0 "$TRIGGER_FAIL$Species must have §Y$citizenship_nice_mind_thrall$§! citizenship rights."
 
   # Slavery
  slavery_nice_mind_thrall:0 "Mind Thralls"
- slavery_nice_mind_thrall_tooltip:2 "Their brains are hooked into our Neural Network to aid our £society£ £engineering£ £physics£ §Yresearch§!"
+ slavery_nice_mind_thrall_tooltip:2 "Their brains can aid the §YElder Brain§! in our £society£ £engineering£ £physics£ §Yresearch§!"
  slavery_nice_mind_thrall_tooltip_delayed:0 "§LLivestock is Pops!§!"
 
  # Jobs
@@ -91,19 +98,19 @@
  mind_flayer.2.desc:0 "This momentous occasion was felt by every §Y[Root.GetSpeciesName]§! across the galaxy. \n\nThe Elder Brain on §Y[Root.GetName]§! has grown to its ideal form, the §Y$d_elder_brain_5$§!. \n\nThese filthy xenos may not like it but this is what peak intelligence looks like."
  mind_flayer.2.option_1:0 "Git Gud"
 
- mind_flayer_elder_brain_upgrade.name:0 "Sacrifice pops to grow the Elder Brain on [Root.GetName]!"
+ mind_flayer_elder_brain_upgrade.name:0 "Merge Mind Flayer brains to grow the Elder Brain on [Root.GetName]!"
 
- mind_flayer_elder_brain_upgrade.101.confirm:0 "Sacrifice 1 pops to the glory of §Y$d_elder_brain_1$§!"
- mind_flayer_elder_brain_upgrade.102.confirm:0 "Sacrifice 3 pops to the glory of §Y$d_elder_brain_2$§!"
- mind_flayer_elder_brain_upgrade.103.confirm:0 "Sacrifice 5 pops to the glory of §Y$d_elder_brain_3$§!"
- mind_flayer_elder_brain_upgrade.104.confirm:0 "Sacrifice 7 pops to the glory of §Y$d_elder_brain_4$§!"
- mind_flayer_elder_brain_upgrade.105.confirm:0 "Sacrifice 10 pops to the glory of §Y$d_elder_brain_5$§!"
+ mind_flayer_elder_brain_upgrade.101.confirm:0 "Merge 1 Mind Flayer brains to the glory of §Y$d_elder_brain_1$§!"
+ mind_flayer_elder_brain_upgrade.102.confirm:0 "Merge 3 Mind Flayer brains to the glory of §Y$d_elder_brain_2$§!"
+ mind_flayer_elder_brain_upgrade.103.confirm:0 "Merge 5 Mind Flayer brains to the glory of §Y$d_elder_brain_3$§!"
+ mind_flayer_elder_brain_upgrade.104.confirm:0 "Merge 7 Mind Flayer brains to the glory of §Y$d_elder_brain_4$§!"
+ mind_flayer_elder_brain_upgrade.105.confirm:0 "Merge 10 Mind Flayer brains to the glory of §Y$d_elder_brain_5$§!"
  
- mind_flayer_elder_brain_upgrade.101.desc:0 "The $d_elder_brain_1$ on §Y[Root.GetName]§! has been grown"
- mind_flayer_elder_brain_upgrade.102.desc:0 "The $d_elder_brain_1$ on §Y[Root.GetName]§! has been grown into $d_elder_brain_2$"
- mind_flayer_elder_brain_upgrade.103.desc:0 "The $d_elder_brain_2$ on §Y[Root.GetName]§! has been grown into $d_elder_brain_3$"
- mind_flayer_elder_brain_upgrade.104.desc:0 "The $d_elder_brain_3$ on §Y[Root.GetName]§! has been grown into $d_elder_brain_4$"
- mind_flayer_elder_brain_upgrade.105.desc:0 "The $d_elder_brain_4$ on §Y[Root.GetName]§! has been grown into $d_elder_brain_5$"
+ mind_flayer_elder_brain_upgrade.101.desc:0 "The $d_elder_brain_1$ on §Y[Root.GetName]§! has grown"
+ mind_flayer_elder_brain_upgrade.102.desc:0 "The $d_elder_brain_1$ on §Y[Root.GetName]§! has grown into $d_elder_brain_2$"
+ mind_flayer_elder_brain_upgrade.103.desc:0 "The $d_elder_brain_2$ on §Y[Root.GetName]§! has grown into $d_elder_brain_3$"
+ mind_flayer_elder_brain_upgrade.104.desc:0 "The $d_elder_brain_3$ on §Y[Root.GetName]§! has grown into $d_elder_brain_4$"
+ mind_flayer_elder_brain_upgrade.105.desc:0 "The $d_elder_brain_4$ on §Y[Root.GetName]§! has grown into $d_elder_brain_5$"
 
 # Technology
  tech_t1_elder_brain:0 "$d_elder_brain_1$ (Tier 1)"

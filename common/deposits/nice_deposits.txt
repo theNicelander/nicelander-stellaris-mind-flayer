@@ -21,6 +21,13 @@
 @d_elder_brain_4_max_building = 6
 @d_elder_brain_5_max_building = 10
 
+# Crime reduction by level
+@d_elder_brain_1_crime = -5
+@d_elder_brain_2_crime = -15
+@d_elder_brain_3_crime = -25
+@d_elder_brain_4_crime = -35
+@d_elder_brain_5_crime = -40
+
 # Deposit that gives some upkeep to balance the large upkeep of the brain
 d_elder_brain_upkeep = {
 	is_for_colonizable = yes
@@ -67,6 +74,7 @@ d_elder_brain_1 = {
 		planet_stability_add = @d_elder_brain_1_stability
 		planet_amenities_add = @d_elder_brain_1_stability
 		planet_max_buildings_add = @d_elder_brain_1_max_building
+		planet_crime_no_happiness_add = @d_elder_brain_1_crime
 	}
 
 	resources = {
@@ -105,6 +113,7 @@ d_elder_brain_2 = {
 		planet_stability_add = @d_elder_brain_2_stability
 		planet_amenities_add = @d_elder_brain_2_stability
 		planet_max_buildings_add = @d_elder_brain_2_max_building
+		planet_crime_no_happiness_add = @d_elder_brain_1_crime
 	}
 
 	resources = {
@@ -143,6 +152,7 @@ d_elder_brain_3 = {
 		planet_stability_add = @d_elder_brain_3_stability
 		planet_amenities_add = @d_elder_brain_3_stability
 		planet_max_buildings_add = @d_elder_brain_3_max_building
+		planet_crime_no_happiness_add = @d_elder_brain_3_crime
 	}
 
 	resources = {
@@ -180,6 +190,7 @@ d_elder_brain_4 = {
 		planet_stability_add = @d_elder_brain_4_stability
 		planet_amenities_add = @d_elder_brain_4_stability
 		planet_max_buildings_add = @d_elder_brain_4_max_building
+		planet_crime_no_happiness_add = @d_elder_brain_4_crime
 	}
 
 	resources = {
@@ -217,6 +228,7 @@ d_elder_brain_5 = {
 		planet_stability_add = @d_elder_brain_5_stability
 		planet_amenities_add = @d_elder_brain_5_stability
 		planet_max_buildings_add = @d_elder_brain_5_max_building
+		planet_crime_no_happiness_add = @d_elder_brain_5_crime
 
 	}
 

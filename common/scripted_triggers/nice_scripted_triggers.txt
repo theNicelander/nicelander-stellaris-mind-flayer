@@ -1,0 +1,7 @@
+# Has to have Mind Flayer civic to add tadpole trait to species
+can_add_tadpoles = {
+	hidden_trigger = { exists = from }
+	from = {
+		has_civic = civic_nice_mind_flayer
+	}
+}

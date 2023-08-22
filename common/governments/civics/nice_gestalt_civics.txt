@@ -10,6 +10,8 @@ civic_nice_mind_flayer = {
 	
 	modifier = {
 		planet_stability_add = -10
+		planet_crime_no_happiness_add = 10
+		pop_growth_speed_reduction = 0.42
 	}
 
 	possible = {
@@ -17,6 +19,7 @@ civic_nice_mind_flayer = {
 			NOR = {
 				value = origin_common_ground
 				value = origin_hegemon
+				value = origin_void_dwellers
 			}
 		}
 		civics = {
@@ -25,11 +28,15 @@ civic_nice_mind_flayer = {
 			}
 		}
 	}
+	traits = {
+		trait = trait_nice_mind_flayer
+	}
 
 	has_secondary_species = {
 		title = civic_nice_mind_flayer_secondary_species
 		traits = {
 			trait = trait_nice_mind_thrall
+			trait = trait_hive_mind
 		}
 	}
 }
