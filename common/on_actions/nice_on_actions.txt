@@ -3,35 +3,3 @@ on_game_start_country = {
 		mind_flayer.1 # add elder brain to planet
 	}
 }
-
-on_colony_yearly_pulse ={
-	events = {
-		nice_add_tadpole.1 # add tadpole to random pop on planet without trait
-	}
-}
-
-# BELOW NOT WORKING
-# on_pop_abducted = {
-# 	events = {
-# 		nice_add_tadpole.1
-# 	}
-# }
-# 
-# on_pop_enslaved = {
-# 	events = {
-# 		nice_add_tadpole.1
-# 	}
-# }
-# 
-# on_pop_added = {
-# 	events = {
-# 		nice_add_tadpole.1
-# 	}
-# }
-# 
-# 
-# on_colony_5_year_pulse = {
-# 	events = {
-# 		nice_add_tadpole.2
-# 	}
-# }
