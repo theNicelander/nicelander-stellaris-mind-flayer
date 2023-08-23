@@ -18,7 +18,7 @@ add_tadpole = {
 	}
 }
 
-
+# Make the able to grow
 mind_thrall_species_rights_adjustment = {
 	optimize_memory
 	set_population_controls = { country = prev type = population_control_no cooldown = no }
@@ -28,7 +28,7 @@ mind_thrall_species_rights_adjustment = {
 
 tadpole_insertion_assimilation_effect = {
 	random_owned_pop = {
-		# Should be a mind thrall WITHOUT the tadpole already
+		# Should be a mind thrall WITHOUT the tadpole
 		limit = {
 			# Is a mindthrall
 			has_citizenship_type = {
@@ -41,8 +41,7 @@ tadpole_insertion_assimilation_effect = {
 				has_trait = trait_nice_tadpole
 			}
 		}
-		modify_species = {
-			add_trait = trait_nice_tadpole
-		}
+		# Add tadpole
+		add_tadpole = yes
 	}
 }
