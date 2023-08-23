@@ -59,22 +59,14 @@ country_event = {
 	}
 
 	immediate = {
-		capital_scope = {
-			# Create thrall pops
-			create_species = {
-				name = "Mind Thrall"
-				plural = "Mind Thralls"
-				class = FUN
-				portrait = "fun11"
-				namelist = "FUN4"
-				homeworld = root
-
-				traits = {
-					ideal_planet_class = root
-					trait = trait_nice_mind_thrall
-					trait = trait_hive_mind
-				}
+		random_owned_species = {
+			limit = {
+				has_trait = trait_nice_mind_thrall
 			}
+			set_species_flag = mind_thrall_species_flag
+			save_global_event_target_as = mind_thrall_species
+		}
+		capital_scope = {
 			while = {
 				count = 5
 				# Remove one of our pops
@@ -82,7 +74,7 @@ country_event = {
 				
 				# Add thrall pop instead
 				create_pop = {
-					species = last_created_species
+					species = event_target:mind_thrall_species
 				}
 			}
 		}
