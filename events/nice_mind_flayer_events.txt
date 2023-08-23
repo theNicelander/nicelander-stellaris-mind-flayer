@@ -48,7 +48,7 @@ country_event = {
 	}
 }
 
-### Add secondary species to planet at the start
+### Add secondary species to capital at the start
 country_event = {
 	id = mind_flayer.3
 	hide_window = yes
@@ -87,17 +87,42 @@ country_event = {
 
 
 ### Tadpole Assimilation, see action.65 event in Stellaris
-planet_event = {
-	id = mind_flayer.4
+# Check every country if they have the mind flayer civic, 
+# then run assimilation on all their planets
+event = {
+	id = mind_flayer.400
 	hide_window = yes
 	is_triggered_only = yes
 
 	immediate = {
+		every_country = {
+			log = "mind_flayer.4: START"
+			limit = {
+				has_valid_civic = civic_nice_mind_flayer
+			}
+			every_owned_planet = {
+				planet_event = { 
+					id = mind_flayer.401  
+				}
+			}
+		}
+	}
+}
+
+# Run scaled assimilation by Elder Brain lvl, adding the tadpole trait to a random pop without it 
+planet_event = {
+	id = mind_flayer.401
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		log = "mind_flayer.4: Planet [This.Planet.GetName]"
 		if  = {
 			limit = {
 				has_deposit  = d_elder_brain_1
 			}
 			tadpole_insertion_assimilation_effect = yes
+			log = "mind_flayer.4: Planet [This.Planet.GetName], brain 1"
 		}
 		if  = {
 			limit = {
@@ -105,6 +130,8 @@ planet_event = {
 			}
 			tadpole_insertion_assimilation_effect = yes
 			tadpole_insertion_assimilation_effect = yes
+			log = "mind_flayer.4: Planet [This.Planet.GetName], brain 2"
+
 		}
 		if  = {
 			limit = {
@@ -113,6 +140,8 @@ planet_event = {
 			tadpole_insertion_assimilation_effect = yes
 			tadpole_insertion_assimilation_effect = yes
 			tadpole_insertion_assimilation_effect = yes
+			log = "mind_flayer.4: Planet [This.Planet.GetName], brain 3"
+
 		}
 		if  = {
 			limit = {
@@ -122,6 +151,8 @@ planet_event = {
 			tadpole_insertion_assimilation_effect = yes
 			tadpole_insertion_assimilation_effect = yes
 			tadpole_insertion_assimilation_effect = yes
+			log = "mind_flayer.4: Planet [This.Planet.GetName], brain 4"
+
 		}
 		if  = {
 			limit = {
@@ -132,8 +163,7 @@ planet_event = {
 			tadpole_insertion_assimilation_effect = yes
 			tadpole_insertion_assimilation_effect = yes
 			tadpole_insertion_assimilation_effect = yes
+			log = "mind_flayer.4: Planet [This.Planet.GetName], brain 5"
 		}
-
-		
-	}
+	} 
 }
