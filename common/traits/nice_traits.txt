@@ -61,6 +61,6 @@ trait_nice_mind_flayer = {
 
 	modifier = {
 		leader_age = 100
-		pop_growth_speed = -1.25
+		pop_growth_speed = -10
 	}
 }
