@@ -48,7 +48,7 @@ country_event = {
 	}
 }
 
-### Add secondary species to planet
+### Add secondary species to planet at the start
 country_event = {
 	id = mind_flayer.3
 	hide_window = yes
@@ -82,5 +82,58 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+
+### Tadpole Assimilation, see action.65 event in Stellaris
+planet_event = {
+	id = mind_flayer.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if  = {
+			limit = {
+				has_deposit  = d_elder_brain_1
+			}
+			tadpole_insertion_assimilation_effect = yes
+		}
+		if  = {
+			limit = {
+				has_deposit  = d_elder_brain_2
+			}
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+		}
+		if  = {
+			limit = {
+				has_deposit  = d_elder_brain_3
+			}
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+		}
+		if  = {
+			limit = {
+				has_deposit  = d_elder_brain_4
+			}
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+		}
+		if  = {
+			limit = {
+				has_deposit  = d_elder_brain_5
+			}
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+			tadpole_insertion_assimilation_effect = yes
+		}
+
+		
 	}
 }
