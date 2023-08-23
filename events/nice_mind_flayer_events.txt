@@ -61,7 +61,7 @@ country_event = {
 	immediate = {
 		random_owned_species = {
 			limit = {
-				has_trait = trait_nice_mind_thrall
+				has_trait = trait_nice_tadpole
 			}
 			set_species_flag = mind_thrall_species_flag
 			save_global_event_target_as = mind_thrall_species

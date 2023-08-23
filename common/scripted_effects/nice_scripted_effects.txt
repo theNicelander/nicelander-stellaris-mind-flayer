@@ -12,7 +12,7 @@ add_tadpole = {
 		}
 		modify_species = {
 			species = this
-			add_trait = trait_nice_mind_thrall
+			add_trait = trait_nice_tadpole
 			add_traits_at_start_of_list = yes
 		}
 	}
@@ -38,11 +38,11 @@ tadpole_insertion_assimilation_effect = {
 			has_slavery_type = { type = slavery_nice_mind_thrall }
 			# Doesn't currently have the tadpole
 			NOT = {
-				has_trait = trait_nice_mind_thrall
+				has_trait = trait_nice_tadpole
 			}
 		}
 		modify_species = {
-			add_trait = trait_nice_mind_thrall
+			add_trait = trait_nice_tadpole
 		}
 	}
 }

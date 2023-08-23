@@ -1,4 +1,4 @@
-trait_nice_mind_thrall = {
+trait_nice_tadpole = {
 	cost = 0
 
 	potential_crossbreeding_chance = 0

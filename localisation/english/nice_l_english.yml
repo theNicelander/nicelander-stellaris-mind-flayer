@@ -8,8 +8,8 @@
 # Traits
  trait_nice_mind_flayer:0 "Mind Flayer"
  trait_nice_mind_flayer_desc:0 "Mind Flayers are powerful beings that can control the minds of others, and feeds on the brains of its victims. It cannot grow by natural means, but instead infects other beings with a §YMind Flayer Tadpole§! which slowly turns the creature into a Mind Flayer"
- trait_nice_mind_thrall:0 "Mind Thrall"
- trait_nice_mind_thrall_desc:0 "Mind Thralls are infected by a §YMind Flayer Tadpole§!, which consumes its host from the inside, eventually transforming them into another Mind Flayer. This process is known as §YCeremorphosis§!"
+ trait_nice_tadpole:0 "Mind Thrall"
+ trait_nice_tadpole_desc:0 "Mind Thralls are infected by a §YMind Flayer Tadpole§!, which consumes its host from the inside, eventually transforming them into another Mind Flayer. This process is known as §YCeremorphosis§!"
  TRAIT_NICE_MIND_TRHALL:0 "If working as a Mind Thrall, reduce upkeep by §G25%§! and produces §G0.2§! £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!."
 
 # Secondary species
@@ -46,7 +46,7 @@
  job_nice_tadpole:0 "Tadpole Implants"
  job_nice_tadpole_plural:0 "$job_nice_tadpole$s"
  job_nice_tadpole_desc:0 "These pops are having a tadpole inserted into them"
- job_nice_tadpole_effect_desc:0 "These pops will eventually gain the £trait_nice_mind_thrall£ trait"
+ job_nice_tadpole_effect_desc:0 "These pops will eventually gain the £trait_nice_tadpole£ trait"
 
  # Buildings
  building_nice_mind_thrall:0 "Mind Thrall Hut"
