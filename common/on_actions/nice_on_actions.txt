@@ -7,6 +7,6 @@ on_game_start_country = {
 
 on_yearly_pulse = {
 	events = {
-		mind_flayer.4 # tadpole assimilation
+		mind_flayer.400 # tadpole assimilation
 	}
 }

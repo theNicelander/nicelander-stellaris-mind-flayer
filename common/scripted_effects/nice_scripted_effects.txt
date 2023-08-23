@@ -42,6 +42,10 @@ tadpole_insertion_assimilation_effect = {
 			}
 		}
 		# Add tadpole
-		add_tadpole = yes
+		modify_species = {
+			species = this
+			add_trait = trait_nice_tadpole
+			add_traits_at_start_of_list = yes
+		}
 	}
 }
