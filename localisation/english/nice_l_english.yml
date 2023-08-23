@@ -8,9 +8,10 @@
 # Traits
  trait_nice_mind_flayer:0 "Mind Flayer"
  trait_nice_mind_flayer_desc:0 "Mind Flayers are powerful beings that can control the minds of others, and feeds on the brains of its victims. It cannot grow by natural means, but instead infects other beings with a §YMind Flayer Tadpole§! which slowly turns the creature into a Mind Flayer"
- trait_nice_mind_thrall:0 "Mind Thrall"
- trait_nice_mind_thrall_desc:0 "Mind Thralls are infected by a §YMind Flayer Tadpole§!, which consumes its host from the inside, eventually transforming them into another Mind Flayer."
- TRAIT_NICE_MIND_TRHALL:0 "If working as a Mind Thrall, reduce upkeep by §G25%§! and produces §G0.2§! £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!."
+
+ trait_nice_tadpole:0 "Tadpole"
+ trait_nice_tadpole_desc:0 "This species is infected by a §YMind Flayer Tadpole§!, which consumes its host from the inside, eventually transforming them into another Mind Flayer. This process is known as §YCeremorphosis§!"
+ TRAIT_NICE_MIND_TRHALL:0 "Reduces leader lifespan by §R-50 years§! \n\nIf working as a §YMind Thrall§!, produce §G0.2§! £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!."
 
 # Secondary species
  civic_nice_mind_flayer_secondary_species:0 "Mind Thrall"
@@ -35,13 +36,18 @@
  # Jobs
  job_nice_mind_thrall:0 "Mind Thrall"
  job_nice_mind_thrall_plural:0 "$job_nice_mind_thrall$s"
- job_nice_mind_thrall_desc:0 "This pop's brain is working for our collective."
+ job_nice_mind_thrall_desc:0 "This pop's brain is working for our collective. They are also undergoing §YCeremorphosis§! to eventually become a §YMind Flayer§!, contributing our pop assembly"
  job_nice_mind_thrall_effect_desc:0 "The excess brain power of these organisms is used to aid our £society£ £engineering£ £physics£ §YResearch§!"
  pop_category_nice_mind_thrall:0 "Mind Thrall Category"
  pop_cat_nice_mind_thrall:0 "Mind Thralls"
  pop_cat_nice_mind_thrall_plural:0 "Mind Thralls"
  pop_cat_nice_mind_thrall_desc:0 "Mind Thralls"
  planet_nice_mind_thrall:0 "Mind Thrall Jobs"
+
+ job_nice_tadpole:0 "Tadpole Implant"
+ job_nice_tadpole_plural:0 "$job_nice_tadpole$s"
+ job_nice_tadpole_desc:0 "These pops are having a tadpole inserted into them"
+ job_nice_tadpole_effect_desc:0 "These pops will eventually gain the £trait_nice_tadpole£ trait"
 
  # Buildings
  building_nice_mind_thrall:0 "Mind Thrall Hut"
