@@ -65,6 +65,10 @@ country_event = {
 			}
 			set_species_flag = mind_thrall_species_flag
 			save_global_event_target_as = mind_thrall_species
+			
+			# make sure mind thralls can grow
+			mind_thrall_species_rights_adjustment = yes
+
 		}
 		capital_scope = {
 			while = {

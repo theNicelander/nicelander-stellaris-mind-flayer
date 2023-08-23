@@ -17,3 +17,11 @@ add_tadpole = {
 		}
 	}
 }
+
+
+mind_thrall_species_rights_adjustment = {
+	optimize_memory
+	set_population_controls = { country = prev type = population_control_no cooldown = no }
+	set_colonization_controls = { country = prev type = colonization_control_no cooldown = no }
+	set_migration_controls = { country = prev type = migration_control_no cooldown = no }
+}
