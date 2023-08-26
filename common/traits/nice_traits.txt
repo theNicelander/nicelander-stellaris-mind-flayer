@@ -38,7 +38,14 @@ trait_nice_mind_flayer = {
 	# Based on trait_necrophage
 	cost = 0
 	potential_crossbreeding_chance = 0
-	opposites = { "trait_plantoid_budding" "trait_lithoid_budding" "trait_advanced_budding" "trait_tiyanki" }
+
+	opposites = { 
+		"trait_slow_breeders" 
+		"trait_rapid_breeders" 
+		"trait_vat_grown" 
+		"trait_tiyanki" 
+	}
+
 	sorting_priority = 99
 
 	initial = no
@@ -63,7 +70,7 @@ trait_nice_mind_flayer = {
 	icon = "gfx/interface/icons/governments/civics/civic_nice_mind_flayer.dds"
 
 	modifier = {
-		leader_age = 100
+		leader_age = 80
 		# -1000%
 		pop_growth_speed = -10
 	}
