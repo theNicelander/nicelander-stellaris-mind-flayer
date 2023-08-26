@@ -1,4 +1,4 @@
-nice_mind_thrall_slavery = {
+slavery_nice_mind_thrall = {
 	is_capped_by_modifier = no
 
 	pop_tooltip = LIVESTOCK

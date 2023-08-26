@@ -3,7 +3,7 @@
  civic_nice_mind_flayer:0 "Mind Flayers"
  civic_nice_mind_flayer_desc:0 "These Illithids seek to expand their dominion over all other lifeforms. They consume their victims' very personality by devouring their brains while still alive and infecting them with a  §YMind Flayer Tadpole§!. \n\nAt the heart of the Mind Flayer community lies the §YElder Brain§!. It forms the physical and spiritual center of the hive and serves as a living library of it's history, technology, and knowledge. \n\nMind Flayers sacrifice themselves to merge their brain with the §YElder Brain§!, strengthening its powers and intellect."
 
- civic_tooltip_nice_mind_thrall_effects:0 "Start the game with §Y5§! organic £pop£ Pops as £job_bio_trophy£ §Y$nice_mind_thrall_slavery$§!, a special slavery type that produces £physics£ £society£ £engineering£ §YResearch Points§! and increase £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!. \n\nCan build §YElder Brains§! on planets, a deposit upgradable via planetary decision, providing £stability£ §YStability§!, £society£ §YResearch§!, £unity£ §YUnity§! and a special §YDefence Army§!. \n\nThe §YElder Brain§! requires £energy£ §YEnergy§! maintain, £food£ §YFood§! to build and upgrade as well as £pops£ §YPops§! to be sacrificed for the glory of the §YElder Brain§!\n "
+ civic_tooltip_nice_mind_thrall_effects:0 "Start the game with §Y5§! organic £pop£ Pops as £job_bio_trophy£ §Y$slavery_nice_mind_thrall$§!, a special slavery type that produces £physics£ £society£ £engineering£ §YResearch Points§! and increase £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!. \n\nCan build §YElder Brains§! on planets, a deposit upgradable via planetary decision, providing £stability£ §YStability§!, £society£ §YResearch§!, £unity£ §YUnity§! and a special §YDefence Army§!. \n\nThe §YElder Brain§! requires £energy£ §YEnergy§! maintain, £food£ §YFood§! to build and upgrade as well as £pops£ §YPops§! to be sacrificed for the glory of the §YElder Brain§!\n "
 
 # Traits
  trait_nice_mind_flayer:0 "Mind Flayer"
@@ -29,9 +29,9 @@
  requires_citizenship_nice_mind_thrall:0 "$TRIGGER_FAIL$Species must have §Y$citizenship_nice_mind_thrall$§! citizenship rights."
 
   # Slavery
- nice_mind_thrall_slavery:0 "Mind Thralls"
- nice_mind_thrall_slavery_tooltip:2 "Their brains can aid the §YElder Brain§!"
- nice_mind_thrall_slavery_tooltip_delayed:0 "§LLivestock is Pops!§!"
+ slavery_nice_mind_thrall:0 "Mind Thralls"
+ slavery_nice_mind_thrall_tooltip:2 "Their brains can aid the §YElder Brain§!"
+ slavery_nice_mind_thrall_tooltip_delayed:0 "§LLivestock is Pops!§!"
 
  # Jobs
  job_nice_mind_thrall:0 "Mind Thrall"
