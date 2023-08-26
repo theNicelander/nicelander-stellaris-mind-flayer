@@ -8,9 +8,9 @@
 
 # Stability by level
 @d_elder_brain_1_stability = 5
-@d_elder_brain_2_stability = 15
-@d_elder_brain_3_stability = 25
-@d_elder_brain_4_stability = 40
+@d_elder_brain_2_stability = 10
+@d_elder_brain_3_stability = 20
+@d_elder_brain_4_stability = 30
 @d_elder_brain_5_stability = 50
 
 # Housing by level
