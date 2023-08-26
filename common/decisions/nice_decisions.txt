@@ -242,8 +242,7 @@ decision_elder_brain_5 = {
 		add_deposit = d_elder_brain_5
 
 		owner = {
-			country_event = { id = mind_flayer.2 } 
-			planet_event = { id = mind_flayer_elder_brain_upgrade.105 }
+			country_event = { id = mind_flayer_elder_brain_upgrade.105 }
 		}
 	}
 
