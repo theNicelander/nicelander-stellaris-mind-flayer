@@ -73,8 +73,8 @@ nice_mind_thrall = {
 		}
 
 		upkeep = {
-			food = 2
-			energy = 2
+			food = 1
+			energy = 1
 		}
 	}
 
@@ -119,16 +119,16 @@ nice_tadpole = {
 		}
 	}
 
-	pop_modifier = {
-		pop_housing_usage_add = -0.5
-	}
-
 	possible_pre_triggers = {
 		is_enslaved = yes
 		is_sapient = yes
 	}
 
 	resources = {
+		upkeep = {
+			food = 1
+			energy = 1
+		}
 	}
 
 	weight = {
