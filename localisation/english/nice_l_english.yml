@@ -30,7 +30,7 @@
 
   # Slavery
  slavery_nice_mind_thrall:0 "Mind Thralls"
- slavery_nice_mind_thrall_tooltip:2 "Their brains can aid the §YElder Brain§! in our £society£ £engineering£ £physics£ §Yresearch§!"
+ slavery_nice_mind_thrall_tooltip:2 "Their brains can aid the §YElder Brain§!"
  slavery_nice_mind_thrall_tooltip_delayed:0 "§LLivestock is Pops!§!"
 
  # Jobs
