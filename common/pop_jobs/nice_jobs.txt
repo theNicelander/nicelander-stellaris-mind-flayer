@@ -2,7 +2,7 @@
 @nice_mind_thrall_research_additional_output = 0.5
 
 nice_mind_thrall = {
-	category = nice_mind_thrall
+	category = nice_mind_thrall_pop_category
 	building_icon = building_crude_huts
 	clothes_texture_index = 3
 	icon = mind_thrall
@@ -17,7 +17,7 @@ nice_mind_thrall = {
 	}
 
 	pop_modifier = {
-		pop_housing_usage_add = -0.5
+		# pop_housing_usage_add = -0.5
 	}
 
 	possible_pre_triggers = {
@@ -107,7 +107,7 @@ nice_mind_thrall = {
 }
 
 nice_tadpole = {
-	category = nice_mind_thrall
+	category = nice_mind_thrall_pop_category
 	building_icon = holding_splinter_hive
 	clothes_texture_index = 3
 	icon = overlord_breeder

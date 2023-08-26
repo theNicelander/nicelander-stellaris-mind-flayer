@@ -1,4 +1,4 @@
-nice_mind_thrall = {
+nice_mind_thrall_pop_category = {
 	rank = 0
 	clothes_texture_index = 1
 
