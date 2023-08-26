@@ -105,9 +105,9 @@ nice_mind_thrall_focus_policy = {
 		name = "nice_mind_thrall_focus_policy_soc"
 
 		modifier = {
-			planet_nice_mind_thrall_society_research_produces_mult = 0.5
-			planet_nice_mind_thrall_engineering_research_produces_mult = -0.25
-			planet_nice_mind_thrall_physics_research_produces_mult = -0.25
+			planet_nice_mind_thrall_society_research_produces_mult = 0.3
+			planet_nice_mind_thrall_engineering_research_produces_mult = -0.15
+			planet_nice_mind_thrall_physics_research_produces_mult = -0.15
 		}
 
 		AI_weight = {
@@ -119,9 +119,9 @@ nice_mind_thrall_focus_policy = {
 		name = "nice_mind_thrall_focus_policy_eng"
 
 		modifier = {
-			planet_nice_mind_thrall_society_research_produces_mult = -0.25
-			planet_nice_mind_thrall_engineering_research_produces_mult = 0.5
-			planet_nice_mind_thrall_physics_research_produces_mult = -0.25
+			planet_nice_mind_thrall_society_research_produces_mult = -0.15
+			planet_nice_mind_thrall_engineering_research_produces_mult = 0.3
+			planet_nice_mind_thrall_physics_research_produces_mult = -0.15
 		}
 
 		AI_weight = {
@@ -132,9 +132,9 @@ nice_mind_thrall_focus_policy = {
 		name = "nice_mind_thrall_focus_policy_phy"
 
 		modifier = {
-			planet_nice_mind_thrall_society_research_produces_mult = -0.25
-			planet_nice_mind_thrall_engineering_research_produces_mult = -0.25
-			planet_nice_mind_thrall_physics_research_produces_mult = 0.5
+			planet_nice_mind_thrall_society_research_produces_mult = -0.15
+			planet_nice_mind_thrall_engineering_research_produces_mult = -0.15
+			planet_nice_mind_thrall_physics_research_produces_mult = 0.3
 		}
 
 		AI_weight = {
