@@ -1,9 +1,9 @@
 # Food cost
 @nice_decision_elder_brain_cost_1 = 1000
-@nice_decision_elder_brain_cost_2 = 5000
-@nice_decision_elder_brain_cost_3 = 10000
-@nice_decision_elder_brain_cost_4 = 25000
-@nice_decision_elder_brain_cost_5 = 50000
+@nice_decision_elder_brain_cost_2 = 3000
+@nice_decision_elder_brain_cost_3 = 9000
+@nice_decision_elder_brain_cost_4 = 27000
+@nice_decision_elder_brain_cost_5 = 100000
 
 # Time in days to enact the decision
 @nice_decision_elder_brain_enact_time_1 = 360 	# 1 year
