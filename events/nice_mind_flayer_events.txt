@@ -27,27 +27,6 @@ country_event = {
 	}
 }
 
-# Galaxy Brain complete
-country_event = {
-	id = mind_flayer.2
-	title = mind_flayer.2.name
-	desc = mind_flayer.2.desc
-
-	picture = GFX_evt_vortex
-	show_sound = event_space_amoeba
-	location = from
-
-	is_triggered_only = yes
-
-	option = {
-		name = mind_flayer.2.option_1
-		add_modifier = {
-			modifier = mod_galaxy_brain_empire
-			days = -1
-		}
-	}
-}
-
 ### Add secondary species to capital at the start
 country_event = {
 	id = mind_flayer.3
