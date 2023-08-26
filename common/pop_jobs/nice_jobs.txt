@@ -1,5 +1,5 @@
 @nice_mind_thrall_research_output = 1.5
-@nice_mind_thrall_research_additional_output = 0.75
+@nice_mind_thrall_research_additional_output = 0.5
 
 nice_mind_thrall = {
 	category = nice_mind_thrall
@@ -77,6 +77,8 @@ nice_mind_thrall = {
 		}
 
 		upkeep = {
+			food = 1
+			energy = 1
 		}
 	}
 
