@@ -1,4 +1,5 @@
 civic_nice_mind_flayer = {
+	modification = no
 	playable = { host_has_dlc = "Utopia" }
 	
 	potential = {
@@ -9,9 +10,9 @@ civic_nice_mind_flayer = {
 	description = civic_tooltip_nice_mind_thrall_effects
 	
 	modifier = {
-		planet_stability_add = -10
-		planet_crime_no_happiness_add = 10
-		pop_growth_speed_reduction = 0.42
+		planet_stability_add = -15
+		planet_crime_no_happiness_add = 20
+		pop_growth_speed_reduction = 0.66
 	}
 
 	possible = {
@@ -25,6 +26,7 @@ civic_nice_mind_flayer = {
 		civics = {
 			NOT = {
 				value = civic_hive_empath
+				value = civic_hive_devouring_swarm
 			}
 		}
 	}

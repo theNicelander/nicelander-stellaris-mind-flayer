@@ -1,18 +1,17 @@
 # How much science/unity brains produce per level
-# Upkeep for LVL 1-4  2x production 
-# Upkeep for LVL 5 is 3x production
+# Production is 3x the previous level
 @d_elder_brain_1_produces = 10
 @d_elder_brain_2_produces = 30
-@d_elder_brain_3_produces = 100
-@d_elder_brain_4_produces = 250
-@d_elder_brain_5_produces = 500
+@d_elder_brain_3_produces = 90
+@d_elder_brain_4_produces = 270
+@d_elder_brain_5_produces = 810
 
 # Stability by level
 @d_elder_brain_1_stability = 5
 @d_elder_brain_2_stability = 15
 @d_elder_brain_3_stability = 25
-@d_elder_brain_4_stability = 35
-@d_elder_brain_5_stability = 40
+@d_elder_brain_4_stability = 40
+@d_elder_brain_5_stability = 50
 
 # Housing by level
 @d_elder_brain_1_max_building = 1
@@ -25,8 +24,8 @@
 @d_elder_brain_1_crime = -5
 @d_elder_brain_2_crime = -15
 @d_elder_brain_3_crime = -25
-@d_elder_brain_4_crime = -35
-@d_elder_brain_5_crime = -40
+@d_elder_brain_4_crime = -40
+@d_elder_brain_5_crime = -60
 
 # Deposit that gives some upkeep to balance the large upkeep of the brain
 d_elder_brain_upkeep = {
