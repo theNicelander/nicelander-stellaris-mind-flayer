@@ -1,3 +1,6 @@
+@nice_mind_thrall_research_output = 1.5
+@nice_mind_thrall_research_additional_output = 0.75
+
 nice_mind_thrall = {
 	category = nice_mind_thrall
 	building_icon = building_crude_huts
@@ -31,46 +34,46 @@ nice_mind_thrall = {
 					is_lithoid = yes
 				}
 			}
-			physics_research = 1
-			society_research = 1
-			engineering_research = 1
+			physics_research = @nice_mind_thrall_research_output
+			society_research = @nice_mind_thrall_research_output
+			engineering_research = @nice_mind_thrall_research_output
 		}
 
 		produces = {
 			trigger = {
 				has_trait = trait_intelligent
 			}
-			physics_research = 0.5
-			society_research = 0.5
-			engineering_research = 0.5
+			physics_research = @nice_mind_thrall_research_additional_output
+			society_research = @nice_mind_thrall_research_additional_output
+			engineering_research = @nice_mind_thrall_research_additional_output
 		}
 
 		produces = {
 			trigger = {
 				has_trait = trait_erudite
 			}
-			physics_research = 1
-			society_research = 1
-			engineering_research = 1
+			physics_research = @nice_mind_thrall_research_output
+			society_research = @nice_mind_thrall_research_output
+			engineering_research = @nice_mind_thrall_research_output
 		}
 
 		produces = {
 			trigger = {
 				has_trait = trait_natural_engineers
 			}
-			engineering_research = 0.5
+			engineering_research = @nice_mind_thrall_research_additional_output
 		}
 		produces = {
 			trigger = {
 				has_trait = trait_natural_physicists
 			}
-			physics_research = 0.5
+			physics_research = @nice_mind_thrall_research_additional_output
 		}
 		produces = {
 			trigger = {
 				has_trait = trait_natural_sociologists
 			}
-			society_research = 0.5
+			society_research = @nice_mind_thrall_research_additional_output
 		}
 
 		upkeep = {
