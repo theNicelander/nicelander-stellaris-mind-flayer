@@ -6,7 +6,7 @@ nice_mind_thrall = {
 
 	assign_to_pop = {
 		is_enslaved = yes
-		has_slavery_type = { type = slavery_nice_mind_thrall }
+		has_slavery_type = { type = nice_mind_thrall_slavery }
 	}
 	weight = {
 		weight = 10

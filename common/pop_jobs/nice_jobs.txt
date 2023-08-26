@@ -5,13 +5,13 @@ nice_mind_thrall = {
 	category = nice_mind_thrall
 	building_icon = building_crude_huts
 	clothes_texture_index = 3
-	icon = bio_trophy
+	icon = mind_thrall
 
 	is_capped_by_modifier = no
 
 	possible = {
 		AND = {
-			has_slavery_type = { type = slavery_nice_mind_thrall }
+			has_slavery_type = { type = nice_mind_thrall_slavery }
 			has_trait = trait_nice_tadpole
 		}
 	}
@@ -108,23 +108,19 @@ nice_mind_thrall = {
 
 nice_tadpole = {
 	category = nice_mind_thrall
-	building_icon = building_crude_huts
+	building_icon = holding_splinter_hive
 	clothes_texture_index = 3
-	icon = bio_trophy
+	icon = overlord_breeder
 
 	is_capped_by_modifier = no
 
 	possible = {
 		AND = {
-			has_slavery_type = { type = slavery_nice_mind_thrall }
+			has_slavery_type = { type = nice_mind_thrall_slavery }
 			NOT = {
 				has_trait = trait_nice_tadpole
 			}
 		}
-	}
-
-	pop_modifier = {
-		pop_housing_usage_add = -0.5
 	}
 
 	possible_pre_triggers = {
@@ -133,6 +129,10 @@ nice_tadpole = {
 	}
 
 	resources = {
+		upkeep = {
+			food = 2
+			energy = 2
+		}
 	}
 
 	weight = {
