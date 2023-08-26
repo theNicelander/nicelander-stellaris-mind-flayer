@@ -14,20 +14,6 @@ nice_mind_thrall_policy = {
 		}
 	}
 
-	# Disabling this for now, as it no longer requires upkeep
-	# option = {
-	# 	name = "nice_mind_thrall_policy_1"
-
-	# 	modifier = {
-	# 		planet_nice_mind_thrall_produces_mult = -0.5
-	# 		planet_nice_mind_thrall_energy_upkeep_add = -1
-	# 	}
-
-	# 	AI_weight = {
-	# 		factor = 1
-	# 	}
-	# }
-
 	option = {
 		name = "nice_mind_thrall_policy_2"
 
@@ -36,7 +22,7 @@ nice_mind_thrall_policy = {
 		}
 
 		modifier = {
-			planet_nice_mind_thrall_produces_mult = 0.25
+			planet_nice_mind_thrall_produces_mult = 0.5
 			planet_nice_mind_thrall_energy_upkeep_add = 2
 		}
 
@@ -52,7 +38,7 @@ nice_mind_thrall_policy = {
 		}
 
 		modifier = {
-			planet_nice_mind_thrall_produces_mult = 0.5
+			planet_nice_mind_thrall_produces_mult = 1
 			planet_nice_mind_thrall_energy_upkeep_add = 4
 			planet_nice_mind_thrall_volatile_motes_upkeep_add = 0.02
 			planet_nice_mind_thrall_exotic_gases_upkeep_add = 0.02
@@ -71,7 +57,7 @@ nice_mind_thrall_policy = {
 		}
 
 		modifier = {
-			planet_nice_mind_thrall_produces_mult = 1
+			planet_nice_mind_thrall_produces_mult = 2
 			planet_nice_mind_thrall_energy_upkeep_add = 8
 			planet_nice_mind_thrall_volatile_motes_upkeep_add = 0.02
 			planet_nice_mind_thrall_exotic_gases_upkeep_add = 0.02
