@@ -10,6 +10,6 @@ tags={
 	"Buildings"
 }
 name="Nicelander's Mind Flayer Civic"
-picture="elder-brain.jpg"
+picture="thumbnail.png"
 supported_version="3.*"
 remote_file_id="3026047439"
