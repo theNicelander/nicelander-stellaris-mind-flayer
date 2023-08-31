@@ -10,3 +10,9 @@ on_yearly_pulse = {
 		mind_flayer.400 # tadpole assimilation
 	}
 }
+
+on_modification_complete = {
+	events = {
+
+	}
+}

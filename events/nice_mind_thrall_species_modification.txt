@@ -1,0 +1,20 @@
+namespace = mind_thrall_species_mod
+
+# Handle mind trhall rights after species modification
+country_event = {
+	id = utopia.2508
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_owned_leader = {
+			add_leader_traits_after_modification = yes
+			remove_leader_traits_after_modification = yes
+		}
+
+		every_pool_leader = {
+			add_leader_traits_after_modification = yes
+			remove_leader_traits_after_modification = yes
+		}
+	}
+}

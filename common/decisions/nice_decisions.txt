@@ -50,7 +50,7 @@ decision_elder_brain_1 = {
 
 	effect = {
 		add_deposit = d_elder_brain_1
-		planet_event = { id = mind_flayer_elder_brain_upgrade.101 } 
+		planet_event = { id = elder_brain_upgrade.101 } 
 	}
 
 	ai_weight = { weight = 100 }
@@ -92,7 +92,7 @@ decision_elder_brain_2 = {
 	effect = {
 		remove_deposit = d_elder_brain_1 
 		add_deposit = d_elder_brain_2
-		planet_event = { id = mind_flayer_elder_brain_upgrade.102 } 
+		planet_event = { id = elder_brain_upgrade.102 } 
 
 	}
 
@@ -139,7 +139,7 @@ decision_elder_brain_3 = {
 	effect = {
 		remove_deposit = d_elder_brain_2
 		add_deposit = d_elder_brain_3
-		planet_event = { id = mind_flayer_elder_brain_upgrade.103 } 
+		planet_event = { id = elder_brain_upgrade.103 } 
 	}
 
 	ai_weight = { weight = 100 }
@@ -183,7 +183,7 @@ decision_elder_brain_4 = {
 	effect = {
 		remove_deposit = d_elder_brain_3
 		add_deposit = d_elder_brain_4
-		planet_event = { id = mind_flayer_elder_brain_upgrade.104 } 
+		planet_event = { id = elder_brain_upgrade.104 } 
 	}
 
 	ai_weight = { weight = 100 }
@@ -242,7 +242,7 @@ decision_elder_brain_5 = {
 		add_deposit = d_elder_brain_5
 
 		owner = {
-			country_event = { id = mind_flayer_elder_brain_upgrade.105 }
+			country_event = { id = elder_brain_upgrade.105 }
 		}
 	}
 
