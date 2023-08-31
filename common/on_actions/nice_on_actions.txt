@@ -13,6 +13,6 @@ on_yearly_pulse = {
 
 on_modification_complete = {
 	events = {
-
+		mind_thrall_species_mod.1 # modify species rights 
 	}
 }
