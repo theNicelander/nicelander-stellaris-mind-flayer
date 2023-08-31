@@ -102,19 +102,19 @@
  # Events
  mind_flayer.2.name:0 "The §Y$d_elder_brain_5$§! has grown"
 
- mind_flayer_elder_brain_upgrade.name:0 "Grow the Elder Brain on [Root.GetName]!"
+ elder_brain_upgrade.name:0 "Grow the Elder Brain on [Root.GetName]!"
 
- mind_flayer_elder_brain_upgrade.101.confirm:0 "Merge §YMind Flayer§! brains to the glory of §Y$d_elder_brain_1$§!"
- mind_flayer_elder_brain_upgrade.102.confirm:0 "Merge §YMind Flayer§! brains to the glory of §Y$d_elder_brain_2$§!"
- mind_flayer_elder_brain_upgrade.103.confirm:0 "Merge §YMind Flayer§! brains to the glory of §Y$d_elder_brain_3$§!"
- mind_flayer_elder_brain_upgrade.104.confirm:0 "Merge §YMind Flayer§! brains to the glory of §Y$d_elder_brain_4$§!"
- mind_flayer_elder_brain_upgrade.105.confirm:0 "Git Gud Xenos!"
+ elder_brain_upgrade.101.confirm:0 "Merge §YMind Flayer§! brains to the glory of §Y$d_elder_brain_1$§!"
+ elder_brain_upgrade.102.confirm:0 "Merge §YMind Flayer§! brains to the glory of §Y$d_elder_brain_2$§!"
+ elder_brain_upgrade.103.confirm:0 "Merge §YMind Flayer§! brains to the glory of §Y$d_elder_brain_3$§!"
+ elder_brain_upgrade.104.confirm:0 "Merge §YMind Flayer§! brains to the glory of §Y$d_elder_brain_4$§!"
+ elder_brain_upgrade.105.confirm:0 "Git Gud Xenos!"
  
- mind_flayer_elder_brain_upgrade.101.desc:0 "The §Y$d_elder_brain_1$§! on §Y[Root.GetName]§! has grown"
- mind_flayer_elder_brain_upgrade.102.desc:0 "The §Y$d_elder_brain_1$§! on §Y[Root.GetName]§! has grown into §Y$d_elder_brain_2$§!"
- mind_flayer_elder_brain_upgrade.103.desc:0 "The §Y$d_elder_brain_2$§! on §Y[Root.GetName]§! has grown into §Y$d_elder_brain_3$§!"
- mind_flayer_elder_brain_upgrade.104.desc:0 "The §Y$d_elder_brain_3$§! on §Y[Root.GetName]§! has grown into §Y$d_elder_brain_4$§!"
- mind_flayer_elder_brain_upgrade.105.desc:0 "This momentous occasion was felt by every §Y[Root.GetSpeciesName]§! across the galaxy. \n\nThe Elder Brain on §Y[Root.GetName]§! has grown to its ideal form, the §Y$d_elder_brain_5$§!. \n\nThese filthy xenos may not like it but this is what peak intelligence looks like."
+ elder_brain_upgrade.101.desc:0 "The §Y$d_elder_brain_1$§! on §Y[Root.GetName]§! has grown"
+ elder_brain_upgrade.102.desc:0 "The §Y$d_elder_brain_1$§! on §Y[Root.GetName]§! has grown into §Y$d_elder_brain_2$§!"
+ elder_brain_upgrade.103.desc:0 "The §Y$d_elder_brain_2$§! on §Y[Root.GetName]§! has grown into §Y$d_elder_brain_3$§!"
+ elder_brain_upgrade.104.desc:0 "The §Y$d_elder_brain_3$§! on §Y[Root.GetName]§! has grown into §Y$d_elder_brain_4$§!"
+ elder_brain_upgrade.105.desc:0 "This momentous occasion was felt by every §Y[Root.GetSpeciesName]§! across the galaxy. \n\nThe Elder Brain on §Y[Root.GetName]§! has grown to its ideal form, the §Y$d_elder_brain_5$§!. \n\nThese filthy xenos may not like it but this is what peak intelligence looks like."
 
 # Technology
  tech_t1_elder_brain:0 "$d_elder_brain_1$ (Tier 1)"
