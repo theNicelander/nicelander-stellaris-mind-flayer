@@ -1,4 +1,4 @@
-namespace = elder_brain_upgrade
+namespace = mind_flayer_elder_brain_upgrade
 
 @nice_pop_sacrifice_1 = 1
 @nice_pop_sacrifice_2 = 3
@@ -14,9 +14,9 @@ namespace = elder_brain_upgrade
 
 #### Army events
 planet_event = {
-	id = elder_brain_upgrade.101
-	title = elder_brain_upgrade.name
-	desc = elder_brain_upgrade.101.desc
+	id = mind_flayer_elder_brain_upgrade.101
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.101.desc
 
 	picture = GFX_evt_vortex
 	show_sound = event_space_amoeba
@@ -25,7 +25,7 @@ planet_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = elder_brain_upgrade.101.confirm
+		name = mind_flayer_elder_brain_upgrade.101.confirm
 		create_army = {
 			name = "NAME_nice_elder_brain_1_army"
 			type = "nice_elder_brain_1_army"
@@ -38,9 +38,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = elder_brain_upgrade.102
-	title = elder_brain_upgrade.name
-	desc = elder_brain_upgrade.102.desc
+	id = mind_flayer_elder_brain_upgrade.102
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.102.desc
 
 	picture = GFX_evt_vortex
 	show_sound = event_space_amoeba
@@ -49,7 +49,7 @@ planet_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = elder_brain_upgrade.102.confirm
+		name = mind_flayer_elder_brain_upgrade.102.confirm
 		
 		every_planet_army = {
 			limit = { army_type = nice_elder_brain_1_army }
@@ -69,9 +69,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = elder_brain_upgrade.103
-	title = elder_brain_upgrade.name
-	desc = elder_brain_upgrade.103.desc
+	id = mind_flayer_elder_brain_upgrade.103
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.103.desc
 
 	picture = GFX_evt_vortex
 	show_sound = event_space_amoeba
@@ -80,7 +80,7 @@ planet_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = elder_brain_upgrade.103.confirm
+		name = mind_flayer_elder_brain_upgrade.103.confirm
 
 		every_planet_army = {
 			limit = { army_type = nice_elder_brain_2_army }
@@ -102,9 +102,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = elder_brain_upgrade.104
-	title = elder_brain_upgrade.name
-	desc = elder_brain_upgrade.104.desc
+	id = mind_flayer_elder_brain_upgrade.104
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.104.desc
 
 	picture = GFX_evt_vortex
 	show_sound = event_space_amoeba
@@ -113,7 +113,7 @@ planet_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = elder_brain_upgrade.104.confirm
+		name = mind_flayer_elder_brain_upgrade.104.confirm
 
 		every_planet_army = {
 			limit = { army_type = nice_elder_brain_3_army }
@@ -138,9 +138,9 @@ planet_event = {
 }
 
 country_event = {
-	id = elder_brain_upgrade.105
-	title = elder_brain_upgrade.name
-	desc = elder_brain_upgrade.105.desc
+	id = mind_flayer_elder_brain_upgrade.105
+	title = mind_flayer_elder_brain_upgrade.name
+	desc = mind_flayer_elder_brain_upgrade.105.desc
 
 	picture = GFX_evt_vortex
 	show_sound = event_space_amoeba
@@ -149,7 +149,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = elder_brain_upgrade.105.confirm
+		name = mind_flayer_elder_brain_upgrade.105.confirm
 
 		every_planet_army = {
 			limit = { army_type = nice_elder_brain_4_army }
