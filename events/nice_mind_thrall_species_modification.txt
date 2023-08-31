@@ -7,27 +7,22 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = yes
 
+	trigger = {
+		has_authority = auth_hive_mind
+		from = { has_trait = trait_nice_tadpole }
+	}
+
 	immediate = {
 		from = { # modified species
-			if = {
-				limit = {
-					NOT = {
-						has_citizenship_type = {
-							type = citizenship_nice_mind_thrall
-							country = root
-						}
-					}
-				}
-				set_citizenship_type = {
-					country = root
-					type = citizenship_nice_mind_thrall
-					cooldown = no
-				}
-				set_living_standard = {
-					country = root
-					type = living_standard_nice_mind_thrall
-					cooldown = no
-				}
+			set_citizenship_type = {
+				country = root
+				type = citizenship_nice_mind_thrall
+				cooldown = no
+			}
+			set_living_standard = {
+				country = root
+				type = living_standard_nice_mind_thrall
+				cooldown = no
 			}
 		}
 	}
