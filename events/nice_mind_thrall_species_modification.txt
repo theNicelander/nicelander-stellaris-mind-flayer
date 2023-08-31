@@ -1,20 +1,34 @@
 namespace = mind_thrall_species_mod
 
 # Handle mind trhall rights after species modification
+# based on utopia.6001
 country_event = {
-	id = utopia.2508
+	id = mind_thrall_species_mod.1
 	is_triggered_only = yes
 	hide_window = yes
 
 	immediate = {
-		every_owned_leader = {
-			add_leader_traits_after_modification = yes
-			remove_leader_traits_after_modification = yes
-		}
-
-		every_pool_leader = {
-			add_leader_traits_after_modification = yes
-			remove_leader_traits_after_modification = yes
+		from = { # modified species
+			if = {
+				limit = {
+					NOT = {
+						has_citizenship_type = {
+							type = citizenship_nice_mind_thrall
+							country = root
+						}
+					}
+				}
+				set_citizenship_type = {
+					country = root
+					type = citizenship_nice_mind_thrall
+					cooldown = no
+				}
+				set_living_standard = {
+					country = root
+					type = living_standard_nice_mind_thrall
+					cooldown = no
+				}
+			}
 		}
 	}
 }
