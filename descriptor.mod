@@ -5,10 +5,11 @@ tags={
 	"Events"
 	"Technologies"
 	"Gameplay"
-	"Leaders"
 	"Utilities"
 	"Species"
 	"Buildings"
 }
-name="Nicelander's Civics"
+name="Nicelander's Mind Flayer Civic"
+picture="thumbnail.png"
 supported_version="3.*"
+remote_file_id="3026047439"
