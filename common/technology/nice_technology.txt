@@ -1,3 +1,5 @@
+@nice_mind_thrall_science_modifier = 0.2
+
 ################################################### Elder Brain
 # T1 Brain
 tech_t1_elder_brain = {
@@ -351,7 +353,7 @@ tech_mind_thrall_improvements_1 = {
 	}
 
 	modifier = {
-		planet_nice_mind_thrall_produces_mult = 0.1
+		planet_nice_mind_thrall_produces_mult = @nice_mind_thrall_science_modifier
 	}
 
 	weight_modifier = {
@@ -396,7 +398,7 @@ tech_mind_thrall_improvements_2 = {
 	prerequisites = { "tech_mind_thrall_improvements_1" }
 
 	modifier = {
-		planet_nice_mind_thrall_produces_mult = 0.1
+		planet_nice_mind_thrall_produces_mult = @nice_mind_thrall_science_modifier
 	}
 
 	weight_modifier = {
@@ -441,7 +443,7 @@ tech_mind_thrall_improvements_3 = {
 	prerequisites = { "tech_mind_thrall_improvements_2" }
 
 	modifier = {
-		planet_nice_mind_thrall_produces_mult = 0.1
+		planet_nice_mind_thrall_produces_mult = @nice_mind_thrall_science_modifier
 	}
 
 	weight_modifier = {
@@ -486,7 +488,7 @@ tech_mind_thrall_improvements_4 = {
 	prerequisites = { "tech_mind_thrall_improvements_3" }
 
 	modifier = {
-		planet_nice_mind_thrall_produces_mult = 0.1
+		planet_nice_mind_thrall_produces_mult = @nice_mind_thrall_science_modifier
 	}
 
 	weight_modifier = {
@@ -531,7 +533,7 @@ tech_mind_thrall_improvements_5 = {
 	prerequisites = { "tech_mind_thrall_improvements_4" }
 
 	modifier = {
-		planet_nice_mind_thrall_produces_mult = 0.1
+		planet_nice_mind_thrall_produces_mult = @nice_mind_thrall_science_modifier
 	}
 
 	weight_modifier = {
@@ -587,6 +589,6 @@ tech_repeatable_mind_thrall_improvements = {
 	}
 
 	modifier = {
-		planet_nice_mind_thrall_produces_mult = 0.1
+		planet_nice_mind_thrall_produces_mult = @nice_mind_thrall_science_modifier
 	}
 }
