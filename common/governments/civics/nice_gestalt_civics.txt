@@ -4,6 +4,17 @@ civic_nice_mind_flayer = {
 	
 	potential = {
 		authority = { value = auth_hive_mind }
+		civics = {
+			NOR = {
+				value = civic_hive_devouring_swarm
+				value = civic_hive_empath
+			}
+		}
+		origin = {
+			NOT = {
+				value = origin_necrophage
+			}
+		}
 	}
 
 	random_weight = { base = 10 }
