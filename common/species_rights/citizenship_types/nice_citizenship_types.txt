@@ -1,20 +1,12 @@
 citizenship_nice_mind_thrall = {
 	is_slavery = yes
 
+	# Should only be able if the empire is a mindflayer
 	potential = {
-		NOR = {
-			has_trait = trait_mechanical
-			has_trait = trait_machine_unit
-		}
-	}
-
-	in_breach_of = {
-		{
-			key = resolution_greatergood_balance_in_the_middle
-		}
-		{
-			key = resolution_greatergood_universal_prosperity_mandate
-		}
+		exists = from
+		from = { 
+			has_civic = civic_nice_mind_flayer
+		 }
 	}
 
 	allow = {
