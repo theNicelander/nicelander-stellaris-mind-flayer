@@ -2,7 +2,9 @@ living_standard_nice_mind_thrall = {
 
 	potential = {
 		exists = from
-		from = { has_valid_civic = civic_nice_mind_flayer }
+		from = { 
+			has_valid_civic = civic_nice_mind_flayer 
+		}
 	}
 
 	allow = {

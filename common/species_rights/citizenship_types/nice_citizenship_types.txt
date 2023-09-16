@@ -1,6 +1,7 @@
 citizenship_nice_mind_thrall = {
 	is_slavery = yes
 
+	# Should only be able if the empire is a mindflayer
 	potential = {
 		exists = from
 		from = { 
